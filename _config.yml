@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "en"
 title                    : "MASSAOUDOU NS / Abdoul wahid"
 title_separator          : "-"
 name                     : &name "Massaoudou Namata Abdoul wahid"
