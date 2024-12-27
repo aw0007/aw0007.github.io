@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Massaoudou Namata Sama Abdoul wahid"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Massaoudou Namata Sama Abdoul wahid"
-description              : &description ""
-url                      : https://aw0007.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+name                     : &name "Your Name"
+description              : &description "personal description"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 
@@ -22,13 +22,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Abdoul wahid"
+  name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Economist specializing in development economics, econometrics, and international taxation, with a focus on fostering inclusive development in Sub-Saharan Africa."
-  location         : "Montréal, Canada"
-  employer         : "Université du Québec à Montréal (UQAM)"
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "massaoudouabdoulwahid@gmail.com" 
+  email            : "none@example.org" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
