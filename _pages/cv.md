@@ -11,9 +11,6 @@ redirect_from:
 
 ## Academic Background
 ======
-* **Ph.D. in Economics** *(Ongoing)*  
-  Université du Québec à Montréal (UQAM), 2024–2028  
-  *Focus: International Taxation and Revenue Mobilization in Developing Economies.*
 
 * **Master’s in Development Economics**  
   University Clermont-Auvergne (CERDI), 2022–2024  
