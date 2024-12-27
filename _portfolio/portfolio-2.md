@@ -1,6 +1,6 @@
 ---
 title: "Gestion Durable de l'Eau à Casablanca"
-excerpt: "Analyse des défis de gestion de l’eau dans le contexte du changement climatique et de l’urbanisation à Casablanca.<br/><img src='/images/water_management.png'>"
+excerpt: "Analyse des défis de gestion de l’eau dans le contexte du changement climatique et de l’urbanisation à Casablanca.<br/><img src='/images/casablanca_eau_figure/gg_Mt_Eau_num_vs_Niv_educ'>"
 collection: portfolio
 ---
 
