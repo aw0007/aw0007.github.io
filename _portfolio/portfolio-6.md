@@ -1,6 +1,6 @@
 ---
 title: "Étude des Conflits avec ACLED"
-excerpt: "Analyse spatio-temporelle des conflits en utilisant les données ACLED et leurs impacts économiques.<br/><img src='/images/acled_conflicts.png'>"
+excerpt: "Analyse spatio-temporelle des conflits en utilisant les données ACLED et leurs impacts économiques.<br/><img src='/images/acled_figure/event_types_south_asia_fatalities_scale_2024.png'>"
 collection: portfolio
 ---
 
