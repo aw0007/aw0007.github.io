@@ -1,6 +1,6 @@
 ---
-title: "Proposition pour un Marché Obligatoire de Carbone au Canada"
-excerpt: "Étude sur l’impact économique et environnemental d’un système de quotas d'émissions obligatoire au Canada.
+title: "Analyse des Données PASEC 2019"
+excerpt: "Exploration des performances éducatives et des inégalités dans les systèmes éducatifs d’Afrique francophone."
 collection: portfolio
 ---
 
