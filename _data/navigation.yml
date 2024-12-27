@@ -15,7 +15,7 @@ main:
 #    url: /teaching/    
     
   - title: "Portfolio"
-    url: "{{ site.baseurl }}/portfolio/"
+    url: {{ site.baseurl }}/portfolio/
         
   - title: "Blog Posts"
     url: /year-archive/
