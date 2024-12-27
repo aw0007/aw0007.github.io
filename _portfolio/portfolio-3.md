@@ -1,6 +1,6 @@
 ---
 title: "Déterminants Socio-Économiques du VIH en Namibie"
-excerpt: "Étude des facteurs influençant la prévalence du VIH en Namibie à l'aide des données DHS 2013.<br/><img src='/images/vih_analysis.png'>"
+excerpt: "Étude des facteurs influençant la prévalence du VIH en Namibie à l'aide des données DHS 2013."
 collection: portfolio
 ---
 
