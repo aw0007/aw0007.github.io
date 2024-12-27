@@ -1,6 +1,6 @@
 ---
 title: "Proposition pour un Marché Obligatoire de Carbone au Canada"
-excerpt: "Étude sur l’impact économique et environnemental d’un système de quotas d'émissions obligatoire au Canada.<br/><img src='/images/carbon_market.png'>"
+excerpt: "Étude sur l’impact économique et environnemental d’un système de quotas d'émissions obligatoire au Canada.
 collection: portfolio
 ---
 
