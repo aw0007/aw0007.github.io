@@ -1,7 +1,15 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Effet des Flux Financiers Chinois sur la Croissance Économique"
+excerpt: "Analyse des flux financiers chinois et leurs impacts sur la croissance économique dans 147 pays entre 2000 et 2021.<br/><img src='/images/chinese_investments.png'>"
 collection: portfolio
+header:
+  teaser: "/images/chinese_investments.png"
+permalink: /portfolio/flux-financiers-chinois/
 ---
+Ce projet explore l'impact des flux financiers chinois sur la croissance économique mondiale. Principaux aspects :
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+- Utilisation de données de panel couvrant 147 pays (2000-2021).
+- Méthodologies : Estimateur intra-pays, variables instrumentales, et modèles dynamiques (Arellano-Bond).
+- Résultats : Effets positifs à long terme avec des différences régionales (Amériques > Afrique et Asie).
+
+[Voir les détails](https://lienverslerapport.com).
