@@ -1,6 +1,6 @@
 ---
 title: "Effet des Flux Financiers Chinois sur la Croissance Économique"
-excerpt: "Analyse des flux financiers chinois et leurs impacts sur la croissance économique dans 147 pays entre 2000 et 2021.<br/><img src='/images/chinese_investments.png'>"
+excerpt: "Analyse des flux financiers chinois et leurs impacts sur la croissance économique dans 147 pays entre 2000 et 2021.<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png'>"
 collection: portfolio
 ---
 
