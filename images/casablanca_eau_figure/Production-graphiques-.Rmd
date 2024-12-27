@@ -1,0 +1,638 @@
+---
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+\-\--
+title: "Untitled"
+output: html_document
+date: "2023-06-21"
+\-\--
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Ce document explique l'ensemble des codes utilisés pour le traitement des données à l'issu de la collecte.
+
+##### PREAMBULE
+
+# PREAMBULE
+
+# La section PREAMBULE contient les packages et librairies nécessaires pour le traitement des données.
+
+# PACKAGES ET LIBRAIRIES
+
+# Nous chargeons les packages et librairies nécessaires pour l'analyse des données.
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(ggplot2)
+library(dplyr)
+library(RColorBrewer)
+library(factoextra)
+library(FactoMineR)
+library(ggforce)
+library(tinytex)
+library(fivethirtyeight)
+library(haven)
+library(broom)
+library(gmodels)
+library(ggthemes)
+library(fivethirtyeight)
+library(ggsci)
+library(ggpubr)
+```
+
+# Traitement de données
+
+# Cette section comprend les codes qui permettent de définir l'espace de travail, de lire le fichier Excel et de supprimer les colonnes.
+
+# Définition de l'espace de travail et lecture du fichier Excel dans R
+
+# Nous définissons l'espace de travail et importons le fichier Excel contenant les données brutes.
+
+```{r}
+setwd("/Users/user/Desktop/LA GESTION DE L'EAU /Analyse/R")
+
+filepath <- ("datacustom11062023.dta")
+data <- read_dta(filepath)
+#view(data)
+
+dataCm <- data %>%
+  filter(Q3LienavecleCM == 1)
+
+```
+################################################################################
+REPARTION DES MENAGES PAR genre DU CM 
+################################################################################
+
+
+
+```{r}
+mdl_sexe <- c("Homme", "Femme")
+couleurs_sexe <- c("#082567", "#8C001A")
+
+
+dataCm_genre_factor <- dataCm %>%
+  mutate(Genre_fc = as.factor(Genre))
+
+dataCm_sexe_count <- dataCm_genre_factor %>%
+  count(Genre_fc) %>%
+  mutate(prop = n / sum(n))
+
+gg_genre<-ggplot(data = dataCm_sexe_count, aes(x = "", y = prop, fill = Genre_fc)) +
+  geom_bar(width = 1, stat = "identity", position = position_fill(0.5)) +
+  coord_polar(theta = "y") +
+  scale_fill_manual(name = "", values = couleurs_sexe, labels = mdl_sexe) +
+  labs(title = " ", x = NULL, y = NULL) #+
+  #geom_text(aes(label = paste0(round(prop*100, 1), "%")),
+      #      position = position_stack(vjust = 0.5)) +
+  #theme_void()
+
+
+gg_genre
+
+```
+
+  
+```{r}
+couleurs <- c("#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", 
+                       "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf", 
+                       "#2f4b7c", "#ff9896", "#98df8a", "#d62728", "#ffbb78", 
+               
+                            "#c5b0d5", "#c49c94", "#f7b6d2", "#c7c7c7", "#dbdb8d")
+
+```
+################################################################################
+REPARTION DES MENAGES PAR Niveau d;education atteint par   DU CM 
+################################################################################
+
+```{r}
+# Définir les labels personnalisés pour chaque niveau
+labels_niv_educ <- c("Neant", "Niveau Primaire", "Niveau Collegiale", "Niveau secondaire", "Niveau supperieur")
+
+# Convertir la variable Niv_educ en un facteur avec les labels personnalisés
+dataCm$Niv_educ <- factor(dataCm$Niv_educ, levels = 0:4, labels = labels_niv_educ)
+
+mdl_niv_etu_ac<- c("Neant","Niveau Primaire","Niveau Collegiale","Niveau secondaire","Niveau supperieur")
+col_niv_etu_ac <- c("#2f4b7c", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd")
+
+gg_niv_educ<-ggplot(data = dataCm, aes(x = fct_infreq(Niv_educ), 
+                          fill = factor(Niv_educ, levels = mdl_niv_etu_ac))) +
+  geom_bar(width = 0.35) +
+  scale_fill_manual(name = "", 
+                    values = col_niv_etu_ac, 
+                    labels = mdl_niv_etu_ac) +
+  labs(title = "",
+       x="", y=" ") +
+  guides(fill=FALSE) +
+  theme_classic() #+
+  # Ajouter les ÃƒÂ©tiquettes au-dessus des barres avec les proportions arrondies
+ # geom_text(aes(label = paste0(round((..count..)/sum(..count..)*100, 2), "%"),
+              #  y=..count..), stat='count', position=position_stack(1.1)) 
+
+gg_niv_educ
+```
+################################################################################
+REPARTION DES MENAGES PAR Statut d'ocuppation du logement
+################################################################################
+
+
+```{r}
+# Définir les labels personnalisés pour chaque niveau
+labels_statu_ocup <- c("Logé gratuitement (Logement de fonction)","Logé gratuitement (Famille ou Amis)","Propriétaire","Locataire","Autre")
+
+# Convertir la variable Niv_educ en un facteur avec les labels personnalisés
+dataCm$statut_occupation <- factor(dataCm$statut_occupation, levels = 0:4, labels = labels_statu_ocup)
+
+mdl_statu_ocup<- c("Logement de fonction)","Logé gratuitement","Propriétaire","Locataire","Autre")
+
+
+col_statu_ocup <- c("#98df8a", "#17becf", "#8c564b", "#2f4b7c", "#ffbb78")
+
+gg_statu_ocup<-ggplot(data = dataCm, aes(x = fct_infreq(statut_occupation), 
+                          fill = factor(statut_occupation, levels = mdl_statu_ocup))) +
+  geom_bar(width = 0.5) +
+  scale_fill_manual(name = "", 
+                    values = col_statu_ocup, 
+                    labels = mdl_statu_ocup) +
+  labs(title = "",
+       x="", y=" ") +
+  guides(fill=FALSE) +
+  theme_classic()# +
+  # Ajouter les ÃƒÂ©tiquettes au-dessus des barres avec les proportions arrondies
+  #geom_text(aes(label = paste0(round((..count..)/sum(..count..)*100, 2), "%"),
+        #        y=..count..), stat='count', position=position_stack(1.3)) +
+  #coord_flip()
+
+gg_statu_ocup
+
+
+```
+################################################################################
+REPARTION DES MENAGES PAR Montant de la facture  
+################################################################################
+
+
+```{r}
+labels_Mt_Eau_num <- c("50 Dirhams ou moins","Entre 51 et 99 Dirhams","Entre 100 et 150 Dirhams","Entre 151 et 200 Dirhams","Plus de 200 Dirhams")
+
+
+# Convertir la variable Niv_educ en un facteur avec les labels personnalisés
+dataCm$Mt_Eau_num <- factor(dataCm$Mt_Eau_num, levels = 1:5, labels = labels_Mt_Eau_num)
+
+mdl_Mt_Eau_num<- c("50 Dirhams ou moins","Entre 51 et 99 Dirhams","Entre 100 et 150 Dirhams","Entre 151 et 200 Dirhams","Plus de 200 Dirhams")
+
+col_Mt_Eau_num<-c("#133337","#006991" ,"#002d66" ,"#ff7600","#bcffe3")
+
+gg_Mt_Eau_num<-ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                          fill = factor(Mt_Eau_num, levels = mdl_Mt_Eau_num))) +
+  geom_bar(width = 0.5) +
+  scale_fill_manual(name = "", 
+                    values = col_Mt_Eau_num, 
+                    labels = mdl_Mt_Eau_num) +
+  labs(title = "",
+       x="", y=" ") +
+  guides(fill=FALSE) +
+  theme_classic() +
+  coord_flip() #+
+  # Ajouter les ÃƒÂ©tiquettes au-dessus des barres avec les proportions arrondies
+  #geom_text(aes(label = paste0(round((..count..)/sum(..count..)*100, 2), "%"),
+     #           y=..count..), stat='count', position=position_stack(1.3)) +
+  #coord_flip()
+
+gg_Mt_Eau_num
+
+```
+################################################################################
+REPARTION DES MENAGES PAR Type de Logemnt  DU Menage
+################################################################################
+
+```{r}
+
+# Définir les labels personnalisés pour chaque niveau
+labels_type_logement <- c("Bidonville","Appart Habitat social","Appart Habitat économique","Appart std moyen","Appart haut std"," Villa")
+
+# Convertir la variable Niv_educ en un facteur avec les labels personnalisés
+dataCm$Type_logement <- factor(dataCm$Type_logement, levels = 0:5, labels = labels_type_logement)
+
+mdl_Type_logement<- c("Bidonville","Appart Habitat social","Appart Habitat économique","Appart std moyen","Appart haut std"," Villa")
+
+col_Type_logement<-c("#006991","#c4121a","#810000","#7857a1","#071d54" ,"#3232d6","#ffb034")
+
+gg_Type_logement<-ggplot(data = dataCm, aes(x = fct_infreq(Type_logement), 
+                          fill = factor(Type_logement, levels = mdl_Type_logement))) +
+  geom_bar(width = 0.5) +
+  scale_fill_manual(name = "", 
+                    values = col_Type_logement, 
+                    labels = mdl_Type_logement) +
+  labs(title = " ",
+       x="", y=" ") +
+  guides(fill=FALSE) +
+  theme_classic() +
+  # Ajouter les ÃƒÂ©tiquettes au-dessus des barres avec les proportions arrondies
+  #geom_text(aes(label = paste0(round((..count..)/sum(..count..)*100, 2), "%"),
+                #y=..count..), stat='count', position=position_stack(1.3)) +
+  coord_flip()
+
+gg_Type_logement
+
+
+```
+
+################################################################################
+REPARTION DES MENAGES PAR REVENU DU CM 
+################################################################################
+
+```{r}
+
+labels_Revenu_cm <- c("1500 ou moins","Entre 1501 et 2500 Dirhams","Entre 2501 et 4000 Dirhams","Entre 4001 et 9500 Dirhams","Plus de 9500 Dirhams")
+
+# Convertir la variable Niv_educ en un facteur avec les labels personnalisés
+dataCm$Revenu <- factor(dataCm$Revenu, levels = 1:5, labels = labels_Revenu_cm)
+
+mdl_Revenu_cm<- c("1500 ou moins","Entre 1501 et 2500 Dirhams","Entre 2501 et 4000 Dirhams","Entre 4001 et 9500 Dirhams","Plus de 9500 Dirhams")
+
+
+col_Revenu_cm<-c("#ff4800","#ffae93" ,"#ffcab5","#002d66","#f58220")
+
+gg_Revenu_cm<-ggplot(data = dataCm, aes(x = fct_infreq(Revenu), 
+                          fill = factor(Revenu, levels = mdl_Revenu_cm))) +
+  geom_bar(width = 0.5) +
+  scale_fill_manual(name = "", 
+                    values = col_Revenu_cm, 
+                    labels = mdl_Revenu_cm) +
+  labs(title = "",
+       x="", y=" ") +
+  guides(fill=FALSE) +
+  theme_classic() +
+  # Ajouter les ÃƒÂ©tiquettes au-dessus des barres avec les proportions arrondies
+  #geom_text(aes(label = paste0(round((..count..)/sum(..count..)*100, 2), "%"),
+             #   y=..count..), stat='count', position=position_stack(1.3)) +
+  coord_flip()
+
+gg_Revenu_cm
+
+```
+################################################################################
+REPARTION DES MENAGES PAR AGE DU CM 
+################################################################################
+
+```{r}
+
+labels_Age_cm <- c("15 ans et moins	","Entre 16 et 25 ans","Entre 26 et 35 ans","Entre 36 et 45 ans","Entre 46 et 55 ans","Entre 56 et 65","66 ans et Plus")
+
+# Convertir la variable Niv_educ en un facteur avec les labels personnalisés
+dataCm$Age <- factor(dataCm$Age, levels = 1:7, labels = labels_Age_cm)
+
+mdl_Age_cm<- c("15 ans et moins	","Entre 16 et 25 ans","Entre 26 et 35 ans","Entre 36 et 45 ans","Entre 46 et 55 ans","Entre 56 et 65","66 ans et Plus")
+
+
+col_Age_cm<-c("#ff7600","#bcffe3","#cecece","#ff50a0","#ffb0f8" ,"#ff4800","#ffae93")
+
+gg_Age_cm<-ggplot(data = dataCm, aes(x = fct_infreq(Age), 
+                          fill = factor(Age, levels = mdl_Age_cm))) +
+  geom_bar(width = 0.5) +
+  scale_fill_manual(name = "", 
+                    values = col_Age_cm, 
+                    labels = mdl_Age_cm) +
+  labs(title = " ",
+       x="", y=" ") +
+  guides(fill=FALSE) +
+  theme_classic()+
+  # Ajouter les ÃƒÂ©tiquettes au-dessus des barres avec les proportions arrondies
+  #geom_text(aes(label = paste0(round((..count..)/sum(..count..)*100, 2), "%"),
+    #            y=..count..), stat='count', position=position_stack(1.3)) +
+  coord_flip()
+
+gg_Age_cm
+
+
+```
+
+
+################################################################################
+REPARTION DES MENAGES PAR Taille  
+################################################################################
+
+```{r}
+col<-c("#133337","#065535" ,"#000000" ,"#ff7600","#bcffe3","#cecece","#ff50a0","#ffb0f8" ,"#ff4800","#ffae93" ,"#ffcab5","#002d66","#f58220","#b279b4","#ed3896","#002361","#835237","#006991","#c4121a","#810000","#7857a1","#bcffe3","#071d54" ,"#3232d6","#ffb034")
+
+labels_taille_mn <- c("1 à 2 individus","3 à 4 individus","5 à 6 individus","Plus de 6 individus")
+
+# Convertir la variable Niv_educ en un facteur avec les labels personnalisés
+dataCm$taille_mn <- factor(dataCm$taille_mn, levels = 1:4, labels = labels_taille_mn)
+
+mdl_taille_mn<- c("1 à 2 individus","3 à 4 individus","5 à 6 individus","Plus de 6 individus")
+
+
+col_taille_mn<-c("#133337","#065535" ,"#000000" ,"#ff7600")
+
+gg_taille_mn<-ggplot(data = dataCm, aes(x = fct_infreq(taille_mn), 
+                          fill = factor(taille_mn, levels = mdl_taille_mn))) +
+  geom_bar(width = 0.25) +
+  scale_fill_manual(name = "", 
+                    values = col_taille_mn, 
+                    labels = mdl_taille_mn) +
+  labs(title = " ",
+       x="", y=" ") +
+  guides(fill=FALSE) +
+  theme_classic() 
+  # Ajouter les ÃƒÂ©tiquettes au-dessus des barres avec les proportions arrondies
+  #geom_text(aes(label = paste0(round((..count..)/sum(..count..)*100, 2), "%"),
+               # y=..count..), stat='count', position=position_stack(1.3)) 
+#gg_taille_mn
+
+
+```
+
+################################################################################
+Analyse BIVARIE 
+################################################################################
+
+##  Le Genre du CM VS Montant de la facture 
+
+```{r}
+gg_Mt_Eau_num_vs_genre <- ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                   fill = factor(Genre))) +
+  geom_bar(width = 0.5, color = "white") +
+  scale_fill_manual(name = "Genre",  # Ajout de la légende
+                    labels = c("Homme", "Femme"),  # Libellés personnalisés pour chaque genre
+                    values = c("#bcffe3","#ff7600")) +  # Couleurs personnalisées pour chaque genre
+  labs(title = " ",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic() +
+  # Ajouter les étiquettes au-dessus des barres avec les proportions arrondies
+  #geom_text(aes(label = paste0(round((..count..)/sum(..count..) * 100, 2), "%"),
+        #        y = ..count..), stat = 'count', position = position_stack(1.3)) +
+  coord_flip() 
+
+gg_Mt_Eau_num_vs_genre
+
+
+
+```
+
+
+##  Montant de la facture Vs Le Niveau d'education des CM   
+
+```{r}
+gg_Mt_Eau_num_vs_Niv_educ <- ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(Niv_educ))) +
+  geom_bar(width = 0.75, position = position_dodge2()) +
+  scale_fill_manual(name = "Niveau d'éducation du CM",  # Ajout de la légende
+                    labels = c("Neant", "Niveau Primaire", "Niveau Collegiale", "Niveau secondaire", "Niveau supérieur"),  # Libellés personnalisés pour chaque niveau d'éducation
+                    values = c("#2f4b7c", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = " ",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic() +
+  coord_flip() +
+  theme(legend.text = element_text(size = 8))  # Ajustement de la taille du texte de la légende
+
+
+
+
+gg_Mt_Eau_num_vs_Niv_educ_warp <-ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(Niv_educ))) +
+  geom_bar(width = 0.30, position = position_dodge2()) +
+  scale_fill_manual(name = "Niveau d'éducation du CM",  # Ajout de la légende
+                    labels = c("Neant", "Niveau Primaire", "Niveau Collegiale", "Niveau secondaire", "Niveau supérieur"),  # Libellés personnalisés pour chaque niveau d'éducation
+                    values = c("#2f4b7c", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = " ",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic() +
+  coord_flip() +
+  theme(legend.text = element_text(size = 8)) +
+  facet_wrap(~Niv_educ) 
+
+
+ # geom_text(aes(label = paste0(round((..count..)/sum(..count..) * 100, 2), "%"),
+              #  y = ..count..), stat = 'count', position = position_stack(1.3))
+  
+gg_Mt_Eau_num_vs_Niv_educ
+gg_Mt_Eau_num_vs_Niv_educ_warp
+
+```
+
+##  Montant de la facture Vs Le Revenu des CM   
+
+```{r}
+gg_Mt_Eau_num_vs_Revenu <- ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(Revenu))) +
+  geom_bar(width = 0.75, position = position_dodge2()) +
+  scale_fill_manual(name = "Revenu  du CM",  # Ajout de la légende
+                    labels = c("1500 ou moins","Entre 1501 et 2500 Dirhams","Entre 2501 et 4000 Dirhams","Entre 4001 et 9500 Dirhams","Plus de 9500 Dirhams"),  # Libellés personnalisés pour chaque niveau d'éducation
+                    values = c("#ff4800","#2ca02c" ,"#ffcab5","#002d66","#f58220"))  +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic()+
+  geom_text(aes(label = gsub("%", "", scales::percent(..count.. / sum(..count..)))),
+            stat = "count", vjust = -0.5, size = 2.5, angle = 45, 
+            position = position_dodge(width = 1))+
+  theme(legend.text = element_text(size = 8),
+        legend.key.size = unit(0.25, "cm"),
+        axis.text.x = element_text(size = 7,angle = 25, hjust = 1))
+```
+
+
+
+gg_Mt_Eau_num_vs_Revenu_warp <-ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(Revenu))) +
+  geom_bar(width = 0.35, position = position_dodge2()) +
+  scale_fill_manual(name = "Revenu  du CM",  # Ajout de la légende
+                    labels = c("1500 ou moins","Entre 1501 et 2500 Dirhams","Entre 2501 et 4000 Dirhams","Entre 4001 et 9500 Dirhams","Plus de 9500 Dirhams"),  # Libellés personnalisés pour chaque niveau d'éducation
+                    values = c("#ff4800","#2ca02c" ,"#ffcab5","#002d66","#f58220")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic()+
+  coord_flip() +
+  theme(legend.text = element_text(size = 8)) +
+  facet_wrap(~Revenu) 
+
+
+gg_Mt_Eau_num_vs_Revenu
+gg_Mt_Eau_num_vs_Revenu_warp
+
+##  Montant de la facture Vs La superficie du logement :  
+```{r}
+gg_Mt_Eau_num_vs_surface <- ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(surface))) +
+  geom_bar(width = 0.75, position = position_dodge2()) +
+  scale_fill_manual(name = "Superficie du logement",  # Ajout de la légende
+                    labels = c("50 m² ou moins","De 51 m² à 60 m²","De 61 m² à 70 m²","De 71 m² à 90 m²","De 91 m² à 140 m²","Plus de 140 m²"),
+                    values = c("#8c564b", "#e377c2", "#bcbd22", "#17becf","#ff7600","#bcffe3")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic()+
+  geom_text(aes(label = gsub("%", "", scales::percent(..count.. / sum(..count..)))),
+            stat = "count", vjust = -0.5, size = 2.5, angle = 45, 
+            position = position_dodge(width = 1))+
+  theme(legend.text = element_text(size = 8),
+        legend.key.size = unit(0.25, "cm"),
+        axis.text.x = element_text(size = 7,angle = 25, hjust = 1))
+
+
+
+gg_Mt_Eau_num_vs_surface_warp <-ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(surface))) +
+  geom_bar(width = 0.40, position = position_dodge2()) +
+  scale_fill_manual(name = "Surface du Logement ",  # Ajout de la légende
+                    labels = c("50 m² ou moins","De 51 m² à 60 m²","De 61 m² à 70 m²","De 71 m² à 90 m²","De 91 m² à 140 m²","Plus de 140 m²"),
+                    values = c("#8c564b", "#e377c2", "#bcbd22", "#17becf","#ff7600","#bcffe3"))  +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic()+
+  coord_flip() +
+  theme(legend.text = element_text(size = 8)) +
+  facet_wrap(~surface) 
+  
+gg_Mt_Eau_num_vs_surface
+gg_Mt_Eau_num_vs_surface_warp
+
+```
+
+
+##  Montant de la facture Vs Taille du Menage  
+
+```{r}
+gg_Mt_Eau_num_vs_taille_mn <- ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(taille_mn))) +
+  geom_bar(width = 0.75, position = position_dodge2()) +
+  scale_fill_manual(name = "Taille du menage",  # Ajout de la légende
+                    labels = c("1 à 2 individus","3 à 4 individus","5 à 6 individus","Plus de 6 individus"),
+                    values = c("#ff7600","#bcffe3","#002361","#ff50a0")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic() +
+  geom_text(aes(label = gsub("%", "", scales::percent(..count.. / sum(..count..)))),
+            stat = "count", vjust = -0.5, size = 2.5, angle = 45, 
+            position = position_dodge(width = 1))+
+  theme(legend.text = element_text(size = 8),
+        legend.key.size = unit(0.25, "cm"),
+        axis.text.x = element_text(size = 7,angle = 25, hjust = 1))
+
+
+
+gg_Mt_Eau_num_vs_taille_mn_warp <-ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(taille_mn))) +
+  geom_bar(width = 0.40, position = position_dodge2()) +
+  scale_fill_manual(name = "Taille du menage",  # Ajout de la légende
+                    labels = c("1 à 2 individus","3 à 4 individus","5 à 6 individus","Plus de 6 individus"),
+                    values = c("#ff7600","#bcffe3","#002361","#ff50a0")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic() +
+  coord_flip() +
+  theme(legend.text = element_text(size = 8)) +
+  facet_wrap(~taille_mn) 
+
+
+ 
+
+  
+gg_Mt_Eau_num_vs_taille_mn
+gg_Mt_Eau_num_vs_taille_mn_warp
+
+```
+
+##  Montant de la facture Vs L'Age du CM  
+
+```{r}
+gg_Mt_Eau_num_vs_Age_cm <- ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(Age))) +
+  geom_bar(width = 0.75, position = position_dodge2()) +
+  scale_fill_manual(name = "Taille du menage",  # Ajout de la légende
+                    labels = c("15 ans et moins	","Entre 16 et 25 ans","Entre 26 et 35 ans","Entre 36 et 45 ans","Entre 46 et 55 ans","Entre 56 et 65","66 ans et Plus"),
+                    values = c("#ff7600","#bcffe3","#ffb034","#ff50a0","#bcbd22", "#17becf","#7857a1")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL, override.aes = list(size = 1)))+  # Titre de la légende vide
+  theme_classic() +
+  geom_text(aes(label = gsub("%", "", scales::percent(..count.. / sum(..count..)))),
+            stat = "count", vjust = -0.5, size = 2.5, angle = 45, 
+            position = position_dodge(width = 1))+
+  theme(legend.text = element_text(size = 8),
+        legend.key.size = unit(0.25, "cm"),
+        axis.text.x = element_text(size = 7,angle = 25, hjust = 1))
+
+gg_Mt_Eau_num_vs_Age_cm
+```
+
+
+```{r}
+gg_Mt_Eau_num_vs_Age_cm_warp <-ggplot(data = dataCm, aes(x = fct_infreq(Mt_Eau_num), 
+                                                       fill = factor(Age))) +
+  geom_bar(width = 0.40, position = position_dodge2()) +
+  scale_fill_manual(name = "Taille du menage",  # Ajout de la légende
+                    labels = c("15 ans et moins	","Entre 16 et 25 ans",
+                               "Entre 26 et 35 ans","Entre 36 et 45 ans",
+                               "Entre 46 et 55 ans","Entre 56 et 65 ans",
+                               "66 ans et Plus"),
+                    values = c("#ff7600","#bcffe3","#ffb034","#ff50a0","#bcbd22", "#17becf","#7857a1")) +  # Couleurs personnalisées pour chaque niveau d'éducation
+  labs(title = "",
+       x = "", y = "") +
+  guides(fill = guide_legend(title = NULL)) +  # Titre de la légende vide
+  theme_classic() +
+  coord_flip() +
+  theme(legend.text = element_text(size = 8)) +
+  guides(fill = guide_legend(title = NULL, override.aes = list(size = 1)))+  # Titre de la légende vide
+  theme_classic() +
+  geom_text(aes(label = gsub("%", "", scales::percent(..count.. / sum(..count..)))),
+            stat = "count", vjust = -0.5, size = 2.5, angle = 25, 
+            position = position_dodge(width = 1))+
+  theme(legend.text = element_text(size = 8),
+        legend.key.size = unit(0.25, "cm"),
+        axis.text.x = element_text(size = 7,angle = 25, hjust = 1))+
+  facet_wrap(~Age) 
+
+gg_Mt_Eau_num_vs_Age_cm_warp
+
+```
+
+
+```{r}
+col<-c("#133337","#065535" ,"#000000" ,"#ff7600","#bcffe3","#cecece","#ff50a0","#ffb0f8" ,"#ff4800","#ffae93" ,"#ffcab5","#002d66","#f58220","#b279b4","#ed3896","#002361","#835237","#006991","#c4121a","#810000","#7857a1","#bcffe3","#071d54" ,"#3232d6","#ffb034")
+
+```
+
+
+```{r}
+
+
+liste_graphiques <- list(gg_taille_mn, gg_Age_cm, gg_Revenu_cm,
+                         gg_Type_logement, gg_Mt_Eau_num,
+                         gg_statu_ocup, gg_genre, gg_niv_educ,gg_Mt_Eau_num_vs_genre ,gg_Mt_Eau_num_vs_Niv_educ_warp,gg_Mt_Eau_num_vs_Revenu,
+gg_Mt_Eau_num_vs_Revenu_warp,gg_Mt_Eau_num_vs_taille_mn,
+gg_Mt_Eau_num_vs_taille_mn_warp,gg_Mt_Eau_num_vs_surface,
+gg_Mt_Eau_num_vs_surface_warp,gg_Mt_Eau_num_vs_Age_cm,
+gg_Mt_Eau_num_vs_Age_cm_warp)
+
+noms_fichiers <- c("gg_taille_mn", "gg_Age_cm", "gg_Revenu_cm",
+                   "gg_Type_logement", "gg_Mt_Eau_num",
+                   "gg_statu_ocup", "gg_genre", "gg_niv_educ","gg_Mt_Eau_num_vs_genre","gg_Mt_Eau_num_vs_Niv_educ_warp",
+                   "gg_Mt_Eau_num_vs_Revenu","gg_Mt_Eau_num_vs_Revenu_warp",
+                   "gg_Mt_Eau_num_vs_taille_mn",
+                   "gg_Mt_Eau_num_vs_taille_mn_warp","gg_Mt_Eau_num_vs_surface",
+"gg_Mt_Eau_num_vs_surface_warp","gg_Mt_Eau_num_vs_Age_cm_mn
+","gg_Mt_Eau_num_vs_Age_cm_warp")
+
+
+for (i in 1:length(liste_graphiques)) {
+  nom_fichier <- paste0(noms_fichiers[i], ".png")
+  ggsave(filename = nom_fichier, plot = liste_graphiques[[i]], dpi = 1000)
+}
+
+```
+

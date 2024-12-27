@@ -1,0 +1,46 @@
+---
+title: "UntitleLAGESTIONDELEAU"
+output: html_document
+date: "2023-07-13"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(ggplot2)
+library(dplyr)
+library(RColorBrewer)
+library(factoextra)
+library(FactoMineR)
+library(ggforce)
+library(tinytex)
+library(fivethirtyeight)
+library(haven)
+library(broom)
+library(gmodels)
+library(ggthemes)
+library(fivethirtyeight)
+library(ggsci)
+library(ggpubr)
+```
+
+
+```{r}
+setwd("/Users/user/Desktop/LA GESTION DE L'EAU /Analyse/R")
+
+filepath <- ("datacustom11062023.dta")
+data <- read_dta(filepath)
+#view(data)
+
+dataCm <- data %>%
+  filter(Q3LienavecleCM == 1)
+
+```
+
+
+
