@@ -1,6 +1,6 @@
 ---
 title: "Analyse des Données PASEC 2019"
-excerpt: "Exploration des performances éducatives et des inégalités dans les systèmes éducatifs d’Afrique francophone.<br/><img src='/images/passec_figure/Facet_Distribution_MATHS_PV5.png'>"
+excerpt: "Exploration des performances éducatives et des inégalités dans les systèmes éducatifs d’Afrique francophone.<br/><img src='/images/passec_figure/BoxPlot_MATHS_PV5.png'>"
 collection: portfolio
 ---
 
