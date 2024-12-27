@@ -15,7 +15,7 @@ description              : &description "personal description"
 
 url                      : https://aw0007.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "aw0007/Abdoul_wahid_web_page.github.io"
+repository               : "aw0007/aw0007.github.io"
 
 
 
