@@ -1,6 +1,6 @@
 ---
 title: "Effect of Chinese Financial Flows on Economic Growth"
-excerpt: "Analysis of Chinese financial flows and their impacts on economic growth in 147 countries between 2000 and 2021.<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png' style='width:50%;'>"
+excerpt: "Analysis of Chinese financial flows and their impacts on economic growth in 147 countries between 2000 and 2021.<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png'>"
 collection: portfolio
 ---
 
@@ -11,15 +11,15 @@ This study examines the impact of Chinese financial flows on the economic growth
 ### Additional Visuals:
 
 #### Trends in Chinese Financial Flows
-<br/><img src='/images/chinese-financil_flow/Évolution_de_la_Somme_Totale_des_Montants_par_Année_d_Engagement.png'> "Trends in Chinese Financial Flows Over Time"
+<br/><img src='/images/chinese-financil_flow/Évolution_de_la_Somme_Totale_des_Montants_par_Année_d_Engagement.png' style='width:60%;'> "Trends in Chinese Financial Flows Over Time"
 
 #### Regional Distribution
 
-<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png'> "Distribution of Chinese Financial Flows Across Africa"
+<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png' style='width:60%;'> "Distribution of Chinese Financial Flows Across Africa"
 
-<br/><img src='/images/chinese-financil_flow/Project_Map_America.png'> "Distribution of Chinese Financial Flows Across America"
+<br/><img src='/images/chinese-financil_flow/Project_Map_America.png' style='width:60%;'> "Distribution of Chinese Financial Flows Across America"
 
-<br/><img src='/images/chinese-financil_flow/Project_Map_Asia.png'> "Distribution of Chinese Financial Flows Across Asia"
+<br/><img src='/images/chinese-financil_flow/Project_Map_Asia.png' style='width:60%;'> "Distribution of Chinese Financial Flows Across Asia"
 
 #### Short-Term Dynamics
 
