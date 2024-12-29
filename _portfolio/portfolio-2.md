@@ -10,4 +10,3 @@ Cette étude examine les défis liés à la consommation d'eau des ménages et p
 - Évaluation de l’efficacité des campagnes de sensibilisation.
 - Propositions pour améliorer la gestion de l’eau en milieu urbain.
 
-[Voir les détails](https://lienverslerapport.com).
