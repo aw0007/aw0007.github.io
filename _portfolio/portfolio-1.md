@@ -10,18 +10,20 @@ This study examines the impact of Chinese financial flows on the economic growth
 
 ### Additional Visuals:
 
-#### Trends in Chinese Financial Flows
+### Trends in Chinese Financial Flows
 <br/><img src='/images/chinese-financil_flow/Évolution_de_la_Somme_Totale_des_Montants_par_Année_d_Engagement.png' style='width:60%;'> "Trends in Chinese Financial Flows Over Time"
 
-#### Regional Distribution
+### Regional Distribution
+#### "Distribution of Chinese Financial Flows Across Africa"
+<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png' style='width:60%;'> 
 
-<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png' style='width:60%;'> "Distribution of Chinese Financial Flows Across Africa"
+#### "Distribution of Chinese Financial Flows Across America"
+<br/><img src='/images/chinese-financil_flow/Project_Map_America.png' style='width:60%;'> 
 
-<br/><img src='/images/chinese-financil_flow/Project_Map_America.png' style='width:60%;'> "Distribution of Chinese Financial Flows Across America"
+#### "Distribution of Chinese Financial Flows Across Asia"
+<br/><img src='/images/chinese-financil_flow/Project_Map_Asia.png' style='width:60%;'> 
 
-<br/><img src='/images/chinese-financil_flow/Project_Map_Asia.png' style='width:60%;'> "Distribution of Chinese Financial Flows Across Asia"
-
-#### Short-Term Dynamics
+### Short-Term Dynamics
 
 | Variables         | Within (1) | Within (2) | Within (3) | Within (4) | IV (5)      | IV (6)      | IV (7)      | IV (8)      | AB (9)     | AB (10)    | AB (11)    | AB (12)    |
 |-------------------|------------|------------|------------|------------|-------------|-------------|-------------|-------------|------------|------------|------------|------------|
