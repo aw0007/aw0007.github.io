@@ -2,6 +2,9 @@
 title: "Sustainable Water Management in Casablanca"
 excerpt: "Analysis of the challenges of water management in the context of climate change and urbanization in Casablanca.<br/><img src='/images/casablanca_eau_figure/gg_Mt_Eau_num_vs_Niv_educ.png'>"
 collection: portfolio
+authors:
+  - Massaoudou Namata Abdoul Wahid
+  - Compaoré Windkpuere Samuel
 ---
 
 This report presents an in-depth analysis of the fundamental factors influencing residential water consumption in Casablanca, Morocco. The study is conducted in two main phases.
