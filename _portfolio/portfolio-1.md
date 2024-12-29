@@ -1,6 +1,6 @@
 ---
 title: "Effect of Chinese Financial Flows on Economic Growth"
-excerpt: "Analysis of Chinese financial flows and their impacts on economic growth in 147 countries between 2000 and 2021.<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png'>"
+excerpt: "Analysis of Chinese financial flows and their impacts on economic growth in 147 countries between 2000 and 2021.<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png' style='width:50%;'>"
 collection: portfolio
 ---
 
