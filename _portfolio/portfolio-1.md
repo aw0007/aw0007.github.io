@@ -4,10 +4,9 @@ excerpt: "Analyse des flux financiers chinois et leurs impacts sur la croissance
 collection: portfolio
 ---
 
-Ce projet explore l'impact des flux financiers chinois sur la croissance économique mondiale. Principaux aspects :
+This study examines the impact of Chinese financial flows on the economic growth of recipient countries, using AidData, which covers 20,985 projects in 165 low- and middle-income countries over the period 2000-2023. We employ three empirical approaches: the within-country estimator, the instrumental variable estimator using China's steel production as an instrument, and the dynamic panel model with the Arellano and Bond specification.  Our results indicate a positive relationship between Chinese financial flows and the economic growth of recipient countries. The within-country estimator shows a positive impact, as does the instrumental variable approach, which produces positive and significant coefficients. However, the results of the dynamic panel model are not significant. Long-term effects are evident in five-year averages, particularly in infrastructure-related investments. The positive impact is more pronounced in America than in Africa and Asia. Additionally, our results reveal a crowding-out effect on domestic investment.
 
-- Utilisation de données de panel couvrant 147 pays (2000-2021).
-- Méthodologies : Estimateur intra-pays, variables instrumentales, et modèles dynamiques (Arellano-Bond).
-- Résultats : Effets positifs à long terme avec des différences régionales (Amériques > Afrique et Asie).
 
-[Voir les détails](https://lienverslerapport.com).
+
+
+
