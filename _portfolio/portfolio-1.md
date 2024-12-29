@@ -1,5 +1,5 @@
 title: "Effect of Chinese Financial Flows on Economic Growth"
-excerpt: "Analysis of Chinese financial flows and their impacts on economic growth in 147 countries between 2000 and 2021.<br/><img src='/images/chinese-financial_flow/Project_Map_Africa.png'>"
+excerpt: "Analysis of Chinese financial flows and their impacts on economic growth in 147 countries between 2000 and 2021.<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png'>"
 collection: portfolio
 ---
 
@@ -11,29 +11,16 @@ Our results indicate a positive relationship between Chinese financial flows and
 
 ### Additional Visuals:
 
-#### Image 1: Trends in Chinese Financial Flows
-![Trends in Chinese Financial Flows](./Project_Trends.png "Trends in Chinese Financial Flows Over Time")
+#### Trends in Chinese Financial Flows
+![Trends in Chinese Financial Flows](<br/><img src='/images/chinese-financil_flow/Project_Map_Asia.png'> "Trends in Chinese Financial Flows Over Time")
 
-#### Table 1: Short-Term Dynamics
-\[
-\begin{array}{lcccccccccccc}
-\toprule
-& \multicolumn{4}{c}{\text{within}} & \multicolumn{4}{c}{\text{IV}} & \multicolumn{4}{c}{\text{AB}} \\
-\cmidrule(lr){2-5} \cmidrule(lr){6-9} \cmidrule(lr){10-13}
-& (1) & (2) & (3) & (4) & (5) & (6) & (7) & (8) & (9) & (10) & (11) & (12) \\
-\midrule
-\text{Flux\_FC} & 0.018^{***} & 0.015^{***} & 0.005^{**} & 0.003 & 0.627^{***} & 0.557^{***} & 0.393^{***} & 0.356^{***} & -0.000 & -0.001 & -0.001 & 0.000 \\
-& (0.004) & (0.003) & (0.002) & (0.002) & (0.049) & (0.056) & (0.068) & (0.085) & (0.004) & (0.003) & (0.002) & (0.002) \\
-\text{Lag1\_GDP} & & & & & & & & & -0.940^{***} & -0.732^{***} & -0.349^{***} & -0.289^{***} \\
-& & & & & & & & & (0.118) & (0.111) & (0.118) & (0.099) \\
-\bottomrule
-\end{array
 
-#### Image 3: Regional Distribution
-![Regional Distribution](./Project_Map_Africa.png "Distribution of Chinese Financial Flows Across Africa")
+#### Regional Distribution
 
-![Regional Distribution](./Project_Map_America.png "Distribution of Chinese Financial Flows Across America")
+![Regional Distribution](<br/><img src='/images/chinese-financil_flow/Project_Map_Africa.png'> "Distribution of Chinese Financial Flows Across Africa")
 
-![Regional Distribution](./Project_Map_Asia.png "Distribution of Chinese Financial Flows Across Asia")
+![Regional Distribution](<br/><img src='/images/chinese-financil_flow/Project_Map_America.png'> "Distribution of Chinese Financial Flows Across America")
+
+![Regional Distribution](<br/><img src='/images/chinese-financil_flow/Project_Map_Asia.png'> "Distribution of Chinese Financial Flows Across Asia")
 
 
