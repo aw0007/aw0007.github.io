@@ -15,13 +15,3 @@ Public Health • AIDS • Health Behavior • Health and Economic Development �
 
 ### JEL Code:
 I15
-
-### Contact:
-- **Abdoul Wahid Massaoudou Namata**  
-  τ Email: Abdoul_Wahid.MASSAOUDOU_NAMATA@etu.uca.fr  
-
-- **Idriss Adoum Adoum**  
-  ζ Email: Idriss_Adoum.ADOUM@etu.uca.fr  
-
-- **Windkpuere Samuel Compaoré**  
-  η Email: Windkpuere_Samuel.COMPAORE@etu.uca  
