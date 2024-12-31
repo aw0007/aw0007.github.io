@@ -1,4 +1,3 @@
-
 ---
 title: "Tax Revenue Trends Across Regions"
 excerpt: "Analyzing the evolution of tax revenue trends across five global regions, highlighting actionable insights for policymakers.<br/><img src='/images/Governement revenue source/DirectTaxesIncludingSCIncRe_pct.png'>"
