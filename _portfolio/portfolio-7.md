@@ -8,8 +8,6 @@ authors:
 
 This project explores the dynamics of tax revenue across regions over four decades (1980–2020), leveraging the UNU-WIDER Government Revenue Dataset (GRD). The study focuses on key tax components such as direct taxes, indirect taxes (e.g., VAT), property taxes, and taxes on international trade to provide insights into fiscal policies, revenue mobilization, and regional disparities.
 
-We employ advanced data processing and econometric tools to generate insights into tax revenue patterns across Africa, Americas, Asia, Europe, and Oceania. This analysis provides actionable recommendations for policymakers and development practitioners to enhance tax collection and fiscal sustainability.
-
 ---
 ### **Key Insights and Actionable Takeaways**
 
