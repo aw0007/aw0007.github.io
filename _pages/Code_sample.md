@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-# Code Samples
-
 Explore my GitHub repositories for code samples and project analyses:
 
 1. [China Financial Flow](https://github.com/aw0007/China-financial-flow): Analysis of Chinese financial flows and their impact on economic development.
