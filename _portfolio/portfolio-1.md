@@ -27,17 +27,50 @@ This study examines the impact of Chinese financial flows on the economic growth
 
 ### Short-Term Dynamics
 
-To evaluate the effect of Chinese investments on the growth of recipient countries, we estimate the following dynamic panel model (similar to \cite{acemoglu2019rents}):
+### Dynamic Panel Model Specification
 
-\begin{equation}
-Y_{i,t} = \alpha_0 + \alpha_1 BRI_{i,t} +  \lambda Y_{i,t-1} + \sum_{k=1}^{K} \beta_k X_{itk} + \mu_i + \gamma_t + \epsilon_{it}
-\end{equation}
+The model for analyzing the short-term and long-term effects of Chinese investments on economic growth is specified as follows:
 
-Where $Y_{i,t}$ is the logarithm of GDP per capita for country $i$ in year $t$. The term $BRI_{i,t}$ is our variable of interest, representing Chinese investments in country $i$ in year $t$. The inclusion of the lagged log GDP per capita ($Y_{i,t-1}$)\footnote{In \cite{acemoglu2019democracy}, four lags of GDP per capita are used. However, in our study, we limit it to one lag to simplify interpretations, as more than one lag can make result interpretations very complex.} captures the internal dynamics of GDP. This dynamic allows us to capture the short-term and long-term effects between Chinese flows and the growth of developing countries \cite{beck2023liquidity}.
+\[
+Y_{i,t} = \alpha_0 + \alpha_1 BRI_{i,t} + \lambda Y_{i,t-1} + \sum_{k=1}^{K} \beta_k X_{i,t,k} + \mu_i + \gamma_t + \epsilon_{i,t}
+\]
 
-$\alpha_1$ is our coefficient of interest, capturing the short-term effects of Chinese investments. The long-term effect is obtained by dividing the parameter $\hat{\alpha}$ by $1- \sum_{l=1}^{p} \hat{\lambda_l}$ \cite{beck2023liquidity}. $1- \sum_{l=1}^{p} \hat{\lambda_l}$ represents the cumulative effect of past GDP values on its current value. By dividing $\hat{\alpha}$ (the short-term effect) of Chinese investments by this term, we obtain the total cumulative effect over an extended period, i.e., the long-term effect.
+Where:
+- \(Y_{i,t}\): Logarithm of GDP per capita for country \(i\) in year \(t\).
+- \(BRI_{i,t}\): Chinese financial flows (variable of interest).
+- \(Y_{i,t-1}\): Lagged log GDP per capita, capturing GDP dynamics.
+- \(\sum_{k=1}^{K} \beta_k X_{i,t,k}\): Sum of the effects of \(K\) control variables \(X_{i,t,k}\), such as savings, trade openness, education, inflation, etc.
+- \(\mu_i\): Country-specific fixed effects.
+- \(\gamma_t\): Year-specific time effects.
+- \(\epsilon_{i,t}\): Error term.
+  
+### Short-Term and Long-Term Effects
 
-Among the control variables ($X_{itk}$), we include the following variables based on the literature as impacting economic growth \ref{descriptionvar}. These include investment in non-financial state sectors, trade openness (measured by the sum of imports and exports), enrollment rates in primary and secondary education, and total factor productivity (TFP), according to the Penn World Tables. Additionally, we use a dichotomous measure of democracy, as defined by \cite{acemoglu2019democracy}, to capture the institutional aspects of the countries studied. Finally, national savings and foreign direct investment (FDI) variables are also included to provide a comprehensive analysis.
+The coefficient of interest is \(\alpha_1\), representing the short-term effect of Chinese financial flows on economic growth. The long-term effect (\(LTE\)) is calculated as:
+
+\[
+LTE = \frac{\hat{\alpha}_1}{1 - \hat{\lambda}}
+\]
+
+Where:
+- \(\hat{\alpha}_1\): Estimated coefficient for \(BRI_{i,t}\).
+- \(\hat{\lambda}\): Estimated coefficient for \(Y_{i,t-1}\), capturing the persistence of GDP over time.
+
+The long-term effect measures the cumulative impact of Chinese investments on GDP growth, accounting for the persistence of GDP dynamics.
+
+### Control Variables and Interpretation
+
+The control variables (\(X_{i,t,k}\)) include:
+1. **Savings**: National savings rate.
+2. **Gross Fixed Capital Formation (GFCF)**: Proxy for domestic investment.
+3. **FDI**: Foreign direct investment.
+4. **Trade Openness**: Sum of exports and imports relative to GDP.
+5. **Education**: Enrollment rates in primary and secondary education.
+6. **Inflation**: As a measure of macroeconomic stability.
+7. **Rule of Law**: Institutional quality indicator.
+
+The inclusion of these controls ensures robustness and captures other factors influencing GDP growth.
+
 
 
 | Variables         | Within (1) | Within (2) | Within (3) | Within (4) | IV (5)      | IV (6)      | IV (7)      | IV (8)      | AB (9)     | AB (10)    | AB (11)    | AB (12)    |
@@ -62,6 +95,11 @@ Among the control variables ($X_{itk}$), we include the following variables base
 |                   |            |            |            | (0.033)    |             |             |             | (0.065)     |            |            |            | (0.109)    |
 
 ### Notes:
+**Econometric Model Types**:
+   - Within estimators (columns 1–4) are fixed-effects regressions.
+   - IV estimators (columns 5–8) use China's steel production as an instrument.
+   - AB estimators (columns 9–12) refer to Arellano-Bond dynamic panel models.
+     
 - Standard errors are in parentheses.
 - \* \(p<0.10\), \*\* \(p<0.05\), \*\*\* \(p<0.01\).
 - Control variables include savings, gross fixed capital formation (GFCF), FDI, trade openness, primary education, inflation, and rule of law.
