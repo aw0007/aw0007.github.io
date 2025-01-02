@@ -93,6 +93,180 @@ The inclusion of these controls ensures robustness and captures other factors in
 | **Rule_of_Law**   |            |            |            | 0.103***   |             |             |             | 0.060       |            |            |            | 0.107      |
 |                   |            |            |            | (0.033)    |             |             |             | (0.065)     |            |            |            | (0.109)    |
 
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Variables</th>
+      <th>Within (1)</th>
+      <th>Within (2)</th>
+      <th>Within (3)</th>
+      <th>Within (4)</th>
+      <th>IV (5)</th>
+      <th>IV (6)</th>
+      <th>IV (7)</th>
+      <th>IV (8)</th>
+      <th>AB (9)</th>
+      <th>AB (10)</th>
+      <th>AB (11)</th>
+      <th>AB (12)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Chinese_Flows</strong></td>
+      <td>0.018***</td>
+      <td>0.015***</td>
+      <td>0.005**</td>
+      <td>0.003</td>
+      <td>0.627***</td>
+      <td>0.557***</td>
+      <td>0.393***</td>
+      <td>0.356***</td>
+      <td>-0.000</td>
+      <td>-0.001</td>
+      <td>-0.001</td>
+      <td>0.000</td>
+    </tr>
+    <tr>
+      <td>(Std. Error)</td>
+      <td>(0.004)</td>
+      <td>(0.003)</td>
+      <td>(0.002)</td>
+      <td>(0.002)</td>
+      <td>(0.049)</td>
+      <td>(0.056)</td>
+      <td>(0.068)</td>
+      <td>(0.085)</td>
+      <td>(0.004)</td>
+      <td>(0.003)</td>
+      <td>(0.002)</td>
+      <td>(0.002)</td>
+    </tr>
+    <tr>
+      <td><strong>Lag1_GDP</strong></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>-0.940***</td>
+      <td>-0.732***</td>
+      <td>-0.349***</td>
+      <td>-0.289***</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>(0.118)</td>
+      <td>(0.111)</td>
+      <td>(0.118)</td>
+      <td>(0.099)</td>
+    </tr>
+    <tr>
+      <td><strong>Savings</strong></td>
+      <td></td>
+      <td>0.202***</td>
+      <td>0.071***</td>
+      <td>0.046***</td>
+      <td></td>
+      <td>0.106***</td>
+      <td>0.050**</td>
+      <td>0.041***</td>
+      <td></td>
+      <td>0.135***</td>
+      <td>0.049***</td>
+      <td>0.037***</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>(0.035)</td>
+      <td>(0.013)</td>
+      <td>(0.010)</td>
+      <td></td>
+      <td>(0.037)</td>
+      <td>(0.025)</td>
+      <td>(0.022)</td>
+      <td></td>
+      <td>(0.030)</td>
+      <td>(0.012)</td>
+      <td>(0.009)</td>
+    </tr>
+    <tr>
+      <td><strong>GFCF</strong></td>
+      <td></td>
+      <td></td>
+      <td>0.439***</td>
+      <td>0.276***</td>
+      <td></td>
+      <td></td>
+      <td>0.282***</td>
+      <td>0.229***</td>
+      <td></td>
+      <td></td>
+      <td>0.453***</td>
+      <td>0.293***</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>(0.036)</td>
+      <td>(0.026)</td>
+      <td></td>
+      <td></td>
+      <td>(0.067)</td>
+      <td>(0.054)</td>
+      <td></td>
+      <td></td>
+      <td>(0.059)</td>
+      <td>(0.042)</td>
+    </tr>
+    <tr>
+      <td><strong>FDI</strong></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0.006</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>0.035***</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>(0.005)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>(0.010)</td>
+    </tr>
+  </tbody>
+</table>
+
 ### Notes:
 **Econometric Model Types**:
    - Within estimators (columns 1–4) are fixed-effects regressions.
