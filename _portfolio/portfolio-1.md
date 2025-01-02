@@ -27,6 +27,19 @@ This study examines the impact of Chinese financial flows on the economic growth
 
 ### Short-Term Dynamics
 
+To evaluate the effect of Chinese investments on the growth of recipient countries, we estimate the following dynamic panel model (similar to \cite{acemoglu2019rents}):
+
+\begin{equation}
+Y_{i,t} = \alpha_0 + \alpha_1 BRI_{i,t} +  \lambda Y_{i,t-1} + \sum_{k=1}^{K} \beta_k X_{itk} + \mu_i + \gamma_t + \epsilon_{it}
+\end{equation}
+
+Where $Y_{i,t}$ is the logarithm of GDP per capita for country $i$ in year $t$. The term $BRI_{i,t}$ is our variable of interest, representing Chinese investments in country $i$ in year $t$. The inclusion of the lagged log GDP per capita ($Y_{i,t-1}$)\footnote{In \cite{acemoglu2019democracy}, four lags of GDP per capita are used. However, in our study, we limit it to one lag to simplify interpretations, as more than one lag can make result interpretations very complex.} captures the internal dynamics of GDP. This dynamic allows us to capture the short-term and long-term effects between Chinese flows and the growth of developing countries \cite{beck2023liquidity}.
+
+$\alpha_1$ is our coefficient of interest, capturing the short-term effects of Chinese investments. The long-term effect is obtained by dividing the parameter $\hat{\alpha}$ by $1- \sum_{l=1}^{p} \hat{\lambda_l}$ \cite{beck2023liquidity}. $1- \sum_{l=1}^{p} \hat{\lambda_l}$ represents the cumulative effect of past GDP values on its current value. By dividing $\hat{\alpha}$ (the short-term effect) of Chinese investments by this term, we obtain the total cumulative effect over an extended period, i.e., the long-term effect.
+
+Among the control variables ($X_{itk}$), we include the following variables based on the literature as impacting economic growth \ref{descriptionvar}. These include investment in non-financial state sectors, trade openness (measured by the sum of imports and exports), enrollment rates in primary and secondary education, and total factor productivity (TFP), according to the Penn World Tables. Additionally, we use a dichotomous measure of democracy, as defined by \cite{acemoglu2019democracy}, to capture the institutional aspects of the countries studied. Finally, national savings and foreign direct investment (FDI) variables are also included to provide a comprehensive analysis.
+
+
 | Variables         | Within (1) | Within (2) | Within (3) | Within (4) | IV (5)      | IV (6)      | IV (7)      | IV (8)      | AB (9)     | AB (10)    | AB (11)    | AB (12)    |
 |-------------------|------------|------------|------------|------------|-------------|-------------|-------------|-------------|------------|------------|------------|------------|
 | **Chinese_Flows** | 0.018***   | 0.015***   | 0.005**    | 0.003      | 0.627***    | 0.557***    | 0.393***    | 0.356***    | -0.000     | -0.001     | -0.001     | 0.000      |
