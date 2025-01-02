@@ -31,9 +31,9 @@ This study examines the impact of Chinese financial flows on the economic growth
 
 The model for analyzing the short-term and long-term effects of Chinese investments on economic growth is specified as follows:
 
-\[
+$$
 Y_{i,t} = \alpha_0 + \alpha_1 BRI_{i,t} + \lambda Y_{i,t-1} + \sum_{k=1}^{K} \beta_k X_{i,t,k} + \mu_i + \gamma_t + \epsilon_{i,t}
-\]
+$$
 
 Where:
 - \(Y_{i,t}\): Logarithm of GDP per capita for country \(i\) in year \(t\).
@@ -43,6 +43,7 @@ Where:
 - \(\mu_i\): Country-specific fixed effects.
 - \(\gamma_t\): Year-specific time effects.
 - \(\epsilon_{i,t}\): Error term.
+
   
 ### Short-Term and Long-Term Effects
 
