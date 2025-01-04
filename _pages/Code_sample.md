@@ -142,5 +142,23 @@ Tools and Methods Used:
 </details>
 
 4. [African Educational Data Analysis (PASEC)](https://github.com/aw0007/AFrican-Educational-Data-Analysis-PASSEC):
+PASEC Data Visualization: Analysis and visual exploration of educational test scores from PASEC 2019, focusing on gender and country-level trends in mathematics and reading.
+This repository contains two Python scripts for analyzing and visualizing educational test score data for Grade 6 students. The project uses box plots, KDE plots, and faceted visualizations to highlight gender and country-specific disparities.
+
+Tools and Methods Used:
+Python:
+pandas: For data preprocessing and analysis.
+matplotlib and seaborn: For creating detailed visualizations.
+Pillow (PIL): For resizing and optimizing output images.
+Project Highlights:
+Box Plot Visualization (Box plot.py)
+
+<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Generated box plots for mathematics and reading scores by country and gender.</li> <li>Included custom legends showing the percentage of male and female students.</li> <li>Created a combined visualization for mathematics and reading scores with a shared legend.</li> <li>Added author signature and software details to all visualizations.</li> </ul> </details>
+Score Distribution Visualization (Distribution.py)
+
+<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Created KDE plots for overall score distributions by gender in mathematics and reading.</li> <li>Generated faceted KDE grids to visualize score distributions by country and gender.</li> <li>Optimized visuals for high-quality outputs suitable for publications.</li> </ul> </details>
+Sample Visuals
+
+<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Click to View Examples</summary> <ul> <li>Box Plot for Mathematics Scores: `BoxPlot_MATHS_PV5.png`</li> <li>KDE Plot for Overall Mathematics Scores: `Overall_Distribution_MATHS_PV5.png`</li> <li>Faceted KDE for Reading Scores by Country: `Facet_Distribution_LECT_PV5.png`</li> </ul> </details>
    
 For more projects, visit my [GitHub profile](https://github.com/aw0007).
