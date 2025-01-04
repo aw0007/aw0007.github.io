@@ -20,24 +20,16 @@ Python: Advanced network graph creation and geographic mapping.
 Project Highlights:
 Data Handling and Cleaning
 
-<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">See More</summary> - Extensive processing of raw data from various sources. - Integration of control variables for robust analysis. - Creation of intermediate and final datasets for econometric models. </details>
+<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Extensive processing of raw data from various sources.</li> <li>Integration of control variables for robust analysis.</li> <li>Creation of intermediate and final datasets for econometric models.</li> </ul> </details>
 Econometric Analysis
 
-<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">See More</summary> - Estimation of impacts using advanced econometric models. - Sub-sample analyses for Africa, Americas, and Asia to capture regional differences. - Examination of gross fixed capital formation as a key development outcome. - Use of within-country, instrumental variable, and dynamic panel methods. </details>
+<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Estimation of impacts using advanced econometric models.</li> <li>Sub-sample analyses for Africa, Americas, and Asia to capture regional differences.</li> <li>Examination of gross fixed capital formation as a key development outcome.</li> <li>Use of within-country, instrumental variable, and dynamic panel methods.</li> </ul> </details>
 Visualization
 
-
-<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">See More</summary> - Graphs and maps illustrating Chinese financial flows, investments, and project distributions. - Network graphs showing connections between China and recipient countries. - Heatmaps and time-series visuals for trends over time. </details>
+<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Graphs and maps illustrating Chinese financial flows, investments, and project distributions.</li> <li>Network graphs showing connections between China and recipient countries.</li> <li>Heatmaps and time-series visuals for trends over time.</li> </ul> </details>
 Mapping and Cartography
 
-<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">See More</summary> - Geospatial mapping of projects using precise geographic coordinates. - Country-level mapping to highlight the dispersion of Chinese investments globally. - Interactive maps for user exploration of investment patterns. </details>
-Repository Structure:
-
-<details> <summary>Details</summary> - **Estimation of impacts using advanced econometric models.** - **Sub-sample analyses for Africa, Americas, and Asia to capture regional differences.** - **Examination of gross fixed capital formation as a key development outcome.** - **Use of within-country, instrumental variable, and dynamic panel methods.** </details>
-
-Data Folder: Raw and processed data for analysis.
-Results Folder: Outputs such as graphs, tables, and econometric results.
-Script Folder: Documented scripts for every stage of the analysis.
+<details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Geospatial mapping of projects using precise geographic coordinates.</li> <li>Country-level mapping to highlight the dispersion of Chinese investments globally.</li> <li>Interactive maps for user exploration of investment patterns.</li> </ul> </details>
 
 3. [Tax Data Analysis](https://github.com/aw0007/Tax-Data-Analysis): Statistical analysis and insights into international tax treaties and revenue mobilization.
 4. [ACLED Data Analysis](https://github.com/aw0007/Acled-Data-Analysis): Research on armed conflict data to explore patterns and impacts in conflict-affected regions.
