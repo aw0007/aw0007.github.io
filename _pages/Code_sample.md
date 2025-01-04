@@ -41,8 +41,6 @@ Tools and Methods Used:
   - `matplotlib` for plotting and visualization.
   - `geopandas` for geographic shapefile manipulation and mapping.
 
-### Project Highlights:
-
 <details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Click to View Details</summary> <ul> <li><strong>Data Preparation</strong> <ul> <li>Loading and preprocessing ACLED datasets.</li> <li>Converting event dates to datetime format and extracting year information.</li> <li>Filtering data by year (e.g., 2024) for focused analysis.</li> </ul> </li> <li><strong>Mapping and Geographic Analysis</strong> <ul> <li>Loading and filtering geographic shapefiles for countries within specific regions.</li> <li>Highlighting countries affected by conflicts within the selected region.</li> <li>Overlaying event points with geographic data for enhanced visualization.</li> </ul> </li> <li><strong>Visualization</strong> <ul> <li>Plotting conflict events by type using scatter points differentiated by colors.</li> <li>Scaling point sizes based on fatalities to indicate event severity.</li> <li>Annotating country names at centroids for improved readability.</li> <li>Including custom legends to scale fatalities for easier interpretation.</li> </ul> </li> <li><strong>Regional Insights</strong> <ul> <li>Exploring conflict patterns and event types for each region.</li> <li>Identifying geographic hotspots of conflict activity within regions.</li> <li>Providing visual insights into the scale and severity of events across regions.</li> </ul> </li> </ul> </details>
 
 4. [African Educational Data Analysis (PASEC)](https://github.com/aw0007/AFrican-Educational-Data-Analysis-PASSEC):
