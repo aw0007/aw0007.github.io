@@ -14,9 +14,9 @@ Explore my GitHub repositories for code samples and project analyses:
 This repository contains replication files and documentation for the project "Chinese Financial Flows: A Growth Lever for Recipient Economies?" The analysis evaluates the impact of Chinese financial flows on the economic development of recipient countries using econometric and statistical tools.
 
 Tools and Methods Used:
-R: Data preprocessing, visualization, and descriptive analysis.
-Stata: Econometric modeling and statistical analysis.
-Python: Advanced network graph creation and geographic mapping.
+- R: Data preprocessing, visualization, and descriptive analysis.
+- Stata: Econometric modeling and statistical analysis.
+- Python: Advanced network graph creation and geographic mapping.
 Project Highlights:
 
 Data Handling and Cleaning
