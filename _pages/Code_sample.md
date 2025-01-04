@@ -88,7 +88,7 @@ Tools and Methods Used:
 </details>
 
 
-4. [ACLED Data Analysis](https://github.com/aw0007/Acled-Data-Analysis): 
+3. [ACLED Data Analysis](https://github.com/aw0007/Acled-Data-Analysis): 
 
 This repository contains Python scripts and datasets for the **ACLED Data Analysis** project. The project visualizes armed conflict events by region and year, highlighting event typ s, their geographic distribution, and associated fatalities. Maps are generated to provide insights into conflict patterns and severity.
 
@@ -141,6 +141,6 @@ Tools and Methods Used:
 </ul>  
 </details>
 
-7. [African Educational Data Analysis (PASEC)](https://github.com/aw0007/AFrican-Educational-Data-Analysis-PASSEC): Analysis of educational performance using PASEC data from African countries.
-
+4. [African Educational Data Analysis (PASEC)](https://github.com/aw0007/AFrican-Educational-Data-Analysis-PASSEC):
+   
 For more projects, visit my [GitHub profile](https://github.com/aw0007).
