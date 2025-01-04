@@ -18,17 +18,14 @@ R: Data preprocessing, visualization, and descriptive analysis.
 Stata: Econometric modeling and statistical analysis.
 Python: Advanced network graph creation and geographic mapping.
 Project Highlights:
-Data Handling and Cleaning
 
+Data Handling and Cleaning
 <details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Extensive processing of raw data from various sources.</li> <li>Integration of control variables for robust analysis.</li> <li>Creation of intermediate and final datasets for econometric models.</li> </ul> </details>
 Econometric Analysis
-
 <details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Estimation of impacts using advanced econometric models.</li> <li>Sub-sample analyses for Africa, Americas, and Asia to capture regional differences.</li> <li>Examination of gross fixed capital formation as a key development outcome.</li> <li>Use of within-country, instrumental variable, and dynamic panel methods.</li> </ul> </details>
 Visualization
-
 <details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Graphs and maps illustrating Chinese financial flows, investments, and project distributions.</li> <li>Network graphs showing connections between China and recipient countries.</li> <li>Heatmaps and time-series visuals for trends over time.</li> </ul> </details>
 Mapping and Cartography
-
 <details> <summary style="cursor: pointer; color: #007acc; text-decoration: underline;">Details</summary> <ul> <li>Geospatial mapping of projects using precise geographic coordinates.</li> <li>Country-level mapping to highlight the dispersion of Chinese investments globally.</li> <li>Interactive maps for user exploration of investment patterns.</li> </ul> </details>
 
 3. [Tax Data Analysis](https://github.com/aw0007/Tax-Data-Analysis): Statistical analysis and insights into international tax treaties and revenue mobilization.
