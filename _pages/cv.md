@@ -9,6 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="http://aw0007.github.io/files/CV%20AW%20EN%20candidate.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #007ACC; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+📄 Download CV (PDF)
+</a>
+
+## Summary Profile
+======
+...
+
+
 ## Summary Profile
 ======
 Economist with hands-on research experience in development economics, international taxation, and education policy across African and European institutions.
