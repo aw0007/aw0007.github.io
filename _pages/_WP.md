@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Working Papers"
-permalink: /WP/
+permalink: /wp/
 author_profile: true
 redirect_from:
   - /resume
