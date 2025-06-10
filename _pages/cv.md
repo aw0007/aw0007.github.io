@@ -9,12 +9,27 @@ redirect_from:
 
 {% include base_path %}
 
+## Summary Profile
+======
+Economist with hands-on research experience in development economics, international taxation, and education policy across African and European institutions.
+
+Proficient in econometric modeling, impact evaluation, and data science (Python, R, Stata), with a strong foundation in macroeconomic and microeconomic analysis.
+
+Expertise in survey design, data visualization, and machine learning, with a focus on large-scale datasets for evidence-based policy research.
+
+Strong leadership and organizational skills demonstrated through event coordination, academic mentoring, and committee participation.
+
+---
+
 ## Academic Background
 ======
+* **Ph.D. Coursework in Economics**  
+  Université du Québec à Montréal (UQAM), 2024–2025  
+  *Courses:* Advanced Macroeconomics, Dynamic Programming Methods, Advanced Microeconomic Theory and Game Theory
 
-* **Master’s in Development Economics**  
-  University Clermont-Auvergne (CERDI), 2022–2024  
-  *Specialized in econometrics, development policy, and data-driven projects.*
+* **Master’s in Economics**  
+  Université Clermont-Auvergne (CERDI), 2022–2024  
+  *Specialized in public policy, health and education economics, applied econometrics*
 
 * **Bachelor’s in Economics and Management**  
   Hassan II University, Casablanca, Morocco, 2018–2021  
@@ -24,41 +39,66 @@ redirect_from:
 ## Professional Experience
 ======
 ### **Research Assistant in Economics and Statistics**  
-**Orange Innovation Research (SENSE)**, Paris, France (Mar. 2024 – Aug. 2024)  
-- Applied advanced econometric and machine learning techniques to analyze large datasets.  
-- Developed impact evaluation frameworks for social telecommunications offers targeting low-income households.  
-- Processed Big Data using Python and R, leveraging tools like fuzzy matching for accuracy.  
-- Presented findings via Power BI visualizations and prepared detailed reports for stakeholders.  
+**Orange Innovation (SENSE)**, Paris, France (Mar. 2024 – Aug. 2024)  
+- Processed large datasets using Python & R (fuzzy matching, Sharpe method).  
+- Automated PDF document analysis (OCR) and designed scraping models.  
+- Developed evaluation protocols (RCT, DID, IV, RDD) and survey tools.  
+- Visualized insights using Power BI and prepared technical reports.
 
-### **Research Assistant - Economic Analysis**  
-**Laboratory of Applied Statistical Analysis to Economic Research (LASAARE)**, Casablanca, Morocco (May 2023 – Jul. 2023)  
-- Investigated socio-economic determinants of water consumption for sustainable management.  
-- Conducted statistical analysis using R and Stata, including regression models.  
-- Delivered insights on environmental economics through in-depth literature reviews.  
+### **Administrative Assistant – Research Logistics**  
+**Université du Québec à Montréal**, Montreal, Canada (Jan. 2025 – Apr. 2025)  
+- Coordinated with the Rectorate to centralize faculty publication data.  
+- Built and updated ESG UQAM’s internal research database.
+
+### **Teaching Assistant – Macroeconomics**  
+**Université du Québec à Montréal**, Montreal, Canada (Dec. 2024 – Apr. 2025)  
+- Graded exams and assignments for undergraduate macroeconomics courses.
+
+### **Research Assistant – Economic Analysis**  
+**LASAARE**, Casablanca, Morocco (May 2023 – Jul. 2023)  
+- Studied socio-economic determinants of water use for sustainable planning.  
+- Cleaned and analyzed survey data using R and Stata (logit/probit models).  
+- Led literature reviews and developed indicators for empirical analysis.
+
+### **Private Tutor in Statistics (Bachelor level)**  
+**Anacours**, Clermont-Ferrand, France (Feb. 2023 – May 2023)  
+- Supported students in understanding core statistical methods.  
+- Adapted pedagogy based on students' academic levels and needs.
 
 ---
 
-## Scientific Activities
+## Selected Research Projects
 ======
-* **Master’s Thesis:** *Chinese Financial Flows and Economic Growth in Recipient Countries*  
-  Explored the impact of Chinese investments on economic growth using datasets like AidData and World Bank indicators.  
+* **Chinese Financial Flows and Economic Growth in Recipient Countries**  
+  Impact analysis using AidData and World Bank indicators, with IV and panel methods.
 
-* **Research Project:** *Socio-Behavioral Determinants of HIV Prevalence in Namibia*  
-  Utilized Probit models and data from the 2013 Demographic and Health Surveys to generate insights for public health policy.
+* **Socio-Behavioral Determinants of HIV Prevalence in Namibia**  
+  Used Probit models on DHS 2013 to identify key socio-economic influences.
+
+* **Education Production Function in West Africa**  
+  Cross-country comparison of student performance using PASEC data and IV methods.
+
+* **Geospatial Analysis of Conflict Data**  
+  Mapped conflict patterns using spatial data and machine learning.
+
+* **Macroeconomic Time Series Forecasting**  
+  Built ARIMA and ML-based models to forecast economic indicators.
 
 ---
 
 ## Technical Skills
 ======
-* Programming & Tools: Python, R, STATA, Power BI, GAMS, QGIS, MS Office Suite, LaTeX  
-* Data Analysis: Econometrics, Big Data processing, and advanced statistical modeling.  
+* **Languages & Tools:** Python, R, Stata, Power BI, GAMS, QGIS, LaTeX, MS Office  
+* **Econometrics & ML:** Panel data, IV, DID, RCT, supervised & unsupervised learning (SVM, XGBoost, DBSCAN, t-SNE)  
+* **Time Series:** ARIMA, smoothing, forecasting  
+* **Libraries:** scikit-learn, pandas, NumPy, matplotlib, seaborn, Keras  
 
 ---
 
 ## Interpersonal Skills
 ======
-* Critical Thinking, Team Collaboration, Adaptability  
-* Communication, Creative Problem-Solving, Leadership  
+* Communication, Adaptability, Teamwork  
+* Creative Problem-Solving, Organizational Leadership  
 
 ---
 
@@ -71,9 +111,9 @@ redirect_from:
 
 ## Awards & Scholarships
 ======
-* **ANAB Scholarship**, Nigerien Agency for Scholarships and Allocations (2022–2024)  
-* **IDGT SFRI CAP 20-25 Merit Aid Scholarship** (2023–2024)  
-* **Erasmus International Internship Mobility Scholarship** (2023)  
+* **ANAB Scholarship**, Nigerien Agency for Scholarships and Grants (2022–2024)  
+* **IDGT SFRI CAP 20-25 Merit Scholarship** (2023–2024)  
+* **Erasmus International Mobility Scholarship** (2023)  
 
 ---
 
@@ -81,13 +121,15 @@ redirect_from:
 ======
 * French: Native  
 * English: Fluent  
+* Hausa: Native  
 
 ---
 
 ## Activities and Interests
 ======
-* President, *10th Edition of the Scientific, Sports, and Cultural Week* (2021)  
-* Active participant in university basketball and football teams (2019)  
+* **President**, 10th Scientific, Sports, and Cultural Week, 2021  
+* **Student Representative**, Economics Program Committee, UQAM (2024–)  
+* Member, university **basketball**, **football**, and **chess clubs**  
 
 ---
 
@@ -97,10 +139,10 @@ redirect_from:
   Researcher, Orange Innovation Research Lab  
   virginie.comblon@orange.com  
 
-* **Dr. Éric Roca Fernández**  
-  Assistant Professor, CERDI, University of Clermont-Auvergne  
-  eric.rocaf_fernandez@uca.fr  
+* **Prof. Simone Bertoli**  
+  Professor of Economics, CERDI, UCA & Research Fellow at IZA  
+  simone.bertoli@uca.fr  
 
-* **Pr. Fouzi Mourji**  
-  Senior Fellow - FERDI, and Director of LASAARE  
-  fmourji@gmail.com  
+* **Prof. Vianney Dequiedt**  
+  Professor of Economics, CERDI, UCA  
+  Vianney.Dequiedt@uca.fr  
