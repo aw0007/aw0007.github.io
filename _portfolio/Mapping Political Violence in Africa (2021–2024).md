@@ -21,6 +21,8 @@ I created two main maps:
 #### Western Africa: Event Types (2021–2024)
 <img src='https://aw0007.github.io/images/acled_figure/Western_Africa_Events_Map.png' style='width:90%;' alt='West Africa Event Map' />
 
+
+
 #### Africa (2024): Event Types Scaled by Fatalities
 <img src='https://aw0007.github.io/images/acled_figure/event_types_africa_fatalities_scale_2024.png' style='width:90%;' alt='Africa Event Map Scaled by Fatalities' />
 
