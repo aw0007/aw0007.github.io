@@ -1,0 +1,37 @@
+/* === Dark Mode Overrides === */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark-mode a {
+  color: #90caf9;
+}
+
+body.dark-mode header,
+body.dark-mode footer,
+body.dark-mode .page__footer,
+body.dark-mode .page__header {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border-color: #333;
+}
+
+body.dark-mode .sidebar {
+  background-color: #1c1c1c;
+  color: #ddd;
+}
+
+body.dark-mode code {
+  background-color: #2a2a2a;
+}
+
+body.dark-mode table {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .notice--primary {
+  background-color: #263238;
+  border-left-color: #90caf9;
+}
