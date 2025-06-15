@@ -297,6 +297,16 @@ defaults:
       author_profile: true
       share: true
       comments: true
+
+        # _python
+  - scope:
+      path: ""
+      type: python
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
       
 # Sass/SCSS
 sass:
