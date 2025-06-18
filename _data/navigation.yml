@@ -23,20 +23,21 @@ main:
   - title: "CV"
     url: /cv/
     
+  - title: "personal"
+    url: /personal/
+    
   # - title: "Guide"
   #   url: /markdown/
-  
-  - title: "Working Paper"
-    url: /wp/
-
   - title: "Python projects"
     url: /python/
-
+    
+  - title: "Working Paper"
+    url: /wp/
+    
   - title: "R projects"
     url: /R/
     
   - title: "Stata projects"
     url: /stata/
     
-  - title: "personal"
-    url: /personal/
+
