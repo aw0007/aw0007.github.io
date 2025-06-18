@@ -236,10 +236,10 @@ collections:
   R:
     output: true
     permalink: /:collection/:path/
-  Stata:
+  stata:
     output: true
     permalink: /:collection/:path/
-  personel:
+  personal:
     output: true
     permalink: /:collection/:path/
 
@@ -340,10 +340,10 @@ defaults:
       comments: true
       
 
-                # _personnel
+            # _personnel
   - scope:
       path: ""
-      type: personnel
+      type: personal
     values:
       layout: single
       author_profile: true
