@@ -7,7 +7,7 @@ author_profile: true
 
 # 🚀 My Journey in Economics, Data Science & Research
 
-From Niamey to Paris, my journey reflects a deep passion for research, data analysis, and global economic development.
+From Niamey to Paris and Montreal, my academic and professional journey reflects a deep passion for research, data analysis, and global economic development.
 
 ---
 
@@ -18,56 +18,63 @@ From Niamey to Paris, my journey reflects a deep passion for research, data anal
 Baccalaureate, Science Track (Series C) | 2015-2018  
 **Activities**: Chess Club, Football Club, Basketball Club  
 <br/><img src="/images/personal/lex.jpg" style="width:80%;">
+*Photo: Lycée d’Excellence de Niamey (personal photo)*
 
-### Bachelor – Hassan II University, Casablanca (Morocco)
+### Bachelor's – Hassan II University, Casablanca (Morocco)
 
 Economics & Management | 2018-2021  
 <br/><img src="/images/personal/hassan 2.jpg" style="width:80%;">
+*Source: FSJES Casablanca, Hassan II University (official website)*
 
-### Master – University Clermont-Auvergne (CERDI, France)
+### Master's – University Clermont-Auvergne (CERDI, France)
 
 Development Economics | 2022-2024  
 <br/><img src="/images/personal/pole-tertiaire-2.jpg" style="width:80%;">
+*Source: CERDI Clermont-Auvergne, Pôle tertiaire (official website)*
 
-### PhD – UQAM (Canada)
+### PhD – Université du Québec à Montréal (Canada)
 
-Advanced studies in international taxation | 2024-present  
+Advanced studies in International Taxation | 2024-present  
 <br/><img src="/images/personal/UQAM-Judith-Jasmin.jpg" style="width:80%;">
+*Source: Wikimedia Commons / Wikipedia UQAM Pavillon Judith-Jasmin*
 
 ---
 
 ## 🔬 Professional Experience
 
 **Research Assistant – LASAARE (Casablanca, Morocco)**  
+Laboratory of Applied Statistical Analysis to Economic Research  
 May 2023 – July 2023
 
 **Research Assistant – Orange Innovation Research (Paris, France)**  
+SENSE Department – Applied AI and Economics  
 March 2024 – August 2024  
 <br/><img src="/images/personal/orange garden.jpg" style="width:80%;">
+*Photo: Orange Gardens Innovation Campus (personal photo)*
 
 ---
 
-## 💻 Technical Skills
+## 💻 Technical & Interpersonal Skills
 
-**Programming & Tools**:  
+**Technical Tools:**  
 Python, R, STATA, Power BI, GAMS, QGIS, LaTeX, MS Office
 
-**Interpersonal Skills**:  
+**Soft Skills:**  
 Critical Thinking, Communication, Adaptability, Teamwork, Leadership, Problem-Solving
 
 ---
 
 ## 📊 Research Projects
 
-- **Master’s Thesis**: *Chinese Financial Flows and Economic Growth (2000–2021)*  
-- **HIV Study**: Socio-Behavioral Determinants of HIV Prevalence in Namibia (Probit model)
-- **PASEC Data**: Education performance analysis in Francophone Africa
-- **Tax Data Analysis**: VAT, property, trade taxes as % of GDP
-- **Conflict Data Analysis**: Mapping event types & fatalities in conflict zones
+- **Master’s Thesis:** *Chinese Financial Flows and Economic Growth (2000–2021)*  
+- **HIV Study:** Socio-Behavioral Determinants of HIV Prevalence in Namibia (Probit model)
+- **PASEC Data Analysis:** Educational performance across Francophone Africa
+- **Tax Data Analysis:** Trends in VAT, property, trade, and income taxes as a share of GDP
+- **Conflict Data Analysis:** Mapping conflict event types and fatalities by location
 
 ---
 
-## 🎯 Certifications & Awards
+## 🎯 Certifications & Scholarships
 
 - *Data Science with R* (DataCamp, 2023)
 - *Project Monitoring & Evaluation* (AFD, 2024)
