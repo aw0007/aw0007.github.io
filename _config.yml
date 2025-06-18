@@ -230,7 +230,18 @@ collections:
   wp:
     output: true
     permalink: /:collection/:path/
-
+  python:
+    output: true
+    permalink: /:collection/:path/
+  R:
+    output: true
+    permalink: /:collection/:path/
+  Stata:
+    output: true
+    permalink: /:collection/:path/
+  personel:
+    output: true
+    permalink: /:collection/:path/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -302,6 +313,37 @@ defaults:
   - scope:
       path: ""
       type: python
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+          # _R
+  - scope:
+      path: ""
+      type: R
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+
+            # _stata
+  - scope:
+      path: ""
+      type: stata
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+      
+
+                # _personnel
+  - scope:
+      path: ""
+      type: personnel
     values:
       layout: single
       author_profile: true
