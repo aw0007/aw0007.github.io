@@ -340,7 +340,7 @@ defaults:
       comments: true
       
 
-            # _personnel
+            # _personal
   - scope:
       path: ""
       type: personal
