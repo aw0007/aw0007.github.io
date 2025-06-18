@@ -29,5 +29,14 @@ main:
   - title: "Working Paper"
     url: /wp/
 
-      - title: "Python projects"
+  - title: "Python projects"
     url: /python/
+
+  - title: "R projects"
+    url: /R/
+    
+  - title: "Stata projects"
+    url: /stata/
+    
+  - title: "personal"
+    url: /personel/
