@@ -18,24 +18,28 @@ From Niamey to Paris and Montreal, my academic and professional journey reflects
 Baccalaureate, Science Track (Series C) | 2015-2018  
 **Activities**: Chess Club, Football Club, Basketball Club  
 <br/><img src="/images/personal/lex.jpg" style="width:80%;">
+
 *Photo: Lycée d’Excellence de Niamey (personal photo)*
 
 ### Bachelor's – Hassan II University, Casablanca (Morocco)
 
 Economics & Management | 2018-2021  
 <br/><img src="/images/personal/hassan 2.jpg" style="width:80%;">
+
 *Source: FSJES Casablanca, Hassan II University (official website)*
 
 ### Master's – University Clermont-Auvergne (CERDI, France)
 
 Development Economics | 2022-2024  
 <br/><img src="/images/personal/pole-tertiaire-2.jpg" style="width:80%;">
+
 *Source: CERDI Clermont-Auvergne, Pôle tertiaire (official website)*
 
 ### PhD – Université du Québec à Montréal (Canada)
 
 Advanced studies in International Taxation | 2024-present  
 <br/><img src="/images/personal/UQAM-Judith-Jasmin.jpg" style="width:80%;">
+
 *Source: Wikimedia Commons / Wikipedia UQAM Pavillon Judith-Jasmin*
 
 ---
