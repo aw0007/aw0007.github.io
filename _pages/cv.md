@@ -13,10 +13,6 @@ redirect_from:
 📄 Download CV (PDF)
 </a>
 
-## Summary Profile
-======
-...
-
 
 ## Summary Profile
 ======
