@@ -7,17 +7,33 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I’m **Abdoul Wahid Massaoudou Namata**, an economist with a deep passion for advancing development economics and exploring solutions to global challenges. My research focuses on the intersection of **econometrics**, **development policy**, and **international taxation**, particularly the role of tax treaties in fostering sustainable domestic revenue mobilization for developing countries.
+Welcome! I’m **Abdoul Wahid Massaoudou Namata**, an economist and data analyst with expertise in **quantitative analysis**, **econometrics**, **impact evaluation**, and **data science** applied to economic and social issues. I work at the intersection of data, policy, and applied economics, leveraging advanced quantitative tools to generate actionable insights.
 
-### Academic Journey
-My academic background includes a **Master’s in Development Economics** from the University Clermont-Auvergne, CERDI, and a **Bachelor’s in Economics and Management** from Hassan II University. These experiences have shaped my expertise in econometric analysis, development finance, and policy evaluation.
+### What I Do
 
-### Professional Highlights
-My professional journey spans impactful roles such as a **Research Assistant** at **Orange Innovation Research** in Paris, where I applied advanced econometric and machine learning techniques to evaluate social policies, and at **LASAARE** in Morocco, where I explored sustainable water management and resource efficiency. These opportunities have honed my skills in data analysis, impact evaluation, and policy design.
+- **Data Analysis & Econometrics**: Building and estimating econometric models (cross-sectional, panel data, time series) using tools like **Stata**, **R**, and **Python** to analyze economic, social, and development data.
+  
+- **Impact Evaluation**: Designing and implementing evaluation strategies including **Randomized Controlled Trials (RCTs)**, **Difference-in-Differences (DID)**, **Instrumental Variables (IV)**, and **Regression Discontinuity Designs (RDD)** to assess policy interventions.
 
-### Beyond Academia
-Outside of my research and professional pursuits, I actively engage in community initiatives. As the **President of the Scientific, Sports, and Cultural Week** during my undergraduate years, I spearheaded projects promoting collaboration and leadership. My passion for teamwork extends to my hobbies, including basketball and football, which have taught me the importance of strategy, adaptability, and resilience.
+- **Machine Learning & Data Science**: Applying supervised and unsupervised machine learning techniques such as **XGBoost**, **LightGBM**, **Random Forests**, **K-Means Clustering**, **DBSCAN**, and **Time Series Forecasting** to large and complex datasets.
 
-### A Global Perspective
-Having studied and worked in multiple countries, I’ve gained a global perspective on economic challenges and cultural diversity.
+- **Big Data Processing**: Cleaning, merging, and processing large-scale datasets using advanced data wrangling techniques (e.g. **fuzzy matching**, text scraping with **OCR** technologies) for applied research and analysis.
+
+- **Data Visualization**: Creating clear, informative, and interactive visualizations using tools like **Python (matplotlib, seaborn, Plotly)**, **R (ggplot2)**, and **Power BI** to communicate findings effectively.
+
+- **Survey Design**: Developing quantitative and qualitative data collection instruments, including structured and semi-structured questionnaires.
+
+### Tools & Languages
+
+**Python | R | Stata | MATLAB | GAMS | Power BI | QGIS | LaTeX | MS Office**
+
+### Soft Skills
+
+**Problem Solving | Adaptability | Teamwork | Communication | Project Management**
+
+### My Approach
+
+I combine rigorous quantitative methods with a hands-on, problem-solving approach to address complex questions in economics, policy, and development. Whether it’s cleaning messy data, building predictive models, designing evaluation protocols, or presenting results to decision-makers, I aim to bridge the gap between data and actionable insights.
+
+---
 
