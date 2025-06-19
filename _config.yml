@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "MASSAOUDOU NAMATA Abdoul wahid"
+title: "MASSAOUDOU NAMATA<br>Abdoul Wahid"
 title_separator          : "-"
 name                     : &name "Abdoul wahid MNS"
 description              : &description "personal description"
