@@ -14,7 +14,7 @@ Each project below includes a live demo and a short description.
 
 ## Project 1: Government Revenue Mobilization App
 
-[![Government Revenue Shiny App](/images/Governement_revenue_source/R_shiny_web_app_screenshot.png)](https://abdoulwahid.shinyapps.io/taxdata/)
+[![Government Revenue Shiny App](/images/government_revenue_source/r_shiny_web_app_screenshot.png)](https://abdoulwahid.shinyapps.io/taxdata/)
 
 **Description:**  
 An interactive visualization of government revenue mobilization using UNU-WIDER data.  
