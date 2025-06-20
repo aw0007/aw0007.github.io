@@ -5,8 +5,6 @@ permalink: /r-shiny-projects/
 author_profile: true
 ---
 
-# My R Shiny Projects
-
 Welcome to my interactive data science projects built with R Shiny.  
 Each project below includes a live demo and a short description.
 
