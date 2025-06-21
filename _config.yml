@@ -10,7 +10,7 @@
 locale                   : "en-US"
 title: "MASSAOUDOU NAMATA<br>Abdoul Wahid"
 title_separator          : "-"
-name                     : &name ""
+name                     : &name "Abdoul wahid"
 description              : &description "personal description"
 
 url                      : https://aw0007.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
@@ -25,7 +25,7 @@ repository               : "aw0007/aw0007.github.io"
 author:
   # Biographic information
   avatar           : "profile1.png"
-  name             : "Abdoul wahid"
+  name             : ""
   pronouns         : # example: "she/her"  
   bio              : "Data Analyst | Applied Econometrics | Causal Inference | Machine Learning | Data Science"
   location         : "Montreal Canada"
