@@ -1,3 +1,4 @@
+
 ---
 layout: compress
 ---
@@ -6,30 +7,36 @@ layout: compress
 
 <!doctype html>
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-<!--
-<head>
-  {% include head.html %}
-  {% include head/custom.html %}
-</head>
--->
 
   <head>
-  {% include head.html %}
-  {% include head/custom.html %}
-  
-  {% if site.analytics.provider and page.analytics != false %}
-    {% case site.analytics.provider %}
-      {% when "google" %}
-        {% include /analytics-providers/google.html %}
-      {% when "google-universal" %}
-        {% include /analytics-providers/google-universal.html %}
-      {% when "google-analytics-4" %}
-        {% include /analytics-providers/google-analytics-4.html %}
-      {% when "custom" %}
-        {% include /analytics-providers/custom.html %}
-    {% endcase %}
-  {% endif %}
-</head>
+    {% include head.html %}
+    {% include head/custom.html %}
+
+    {% comment %}
+    {% if site.analytics.provider and page.analytics != false %}
+      {% case site.analytics.provider %}
+        {% when "google" %}
+          {% include /analytics-providers/google.html %}
+        {% when "google-universal" %}
+          {% include /analytics-providers/google-universal.html %}
+        {% when "google-analytics-4" %}
+          {% include /analytics-providers/google-analytics-4.html %}
+        {% when "custom" %}
+          {% include /analytics-providers/custom.html %}
+      {% endcase %}
+    {% endif %}
+    {% endcomment %}
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9Q9EV6MTYL"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-9Q9EV6MTYL');
+    </script>
+
+  </head>
 
   <body>
 
@@ -49,3 +56,42 @@ layout: compress
 
   </body>
 </html>
+
+
+
+<!--
+---
+layout: compress
+---
+
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+
+
+<head>
+  {% include head.html %}
+  {% include head/custom.html %}
+</head>
+
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
+
+    {% include scripts.html %}
+
+  </body>
+</html>
+-->
