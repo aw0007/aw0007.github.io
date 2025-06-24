@@ -8,6 +8,36 @@ author_profile: true
 Welcome to my interactive data science projects built with R Shiny.  
 
 
+
+---
+
+# Canada Housing Analytics
+
+[![Canada Housing Analytics App](/images/Housing%20ca/Housing%20cahousingcadash1.png)](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)
+
+**Description:**  
+An interactive application offering dynamic visual insights on rental market trends across Canada, based on official Statistics Canada data.
+
+The application allows users to explore rental price evolution over time and across regions, with detailed filters by structure type and unit type. Interactive maps, line charts, and bar plots provide multiple perspectives on housing data.
+
+🗓 **Date of completion:** June 2025
+
+👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
+
+🎞 **Demo video:**  
+[![Demo Video](/images/Housing%20ca/Housing%20cahousingcadash2.png)](/images/Housing%20ca/demorshinnyappa%20.mp4)
+
+📊 **Data Source:**  
+Statistics Canada - Table 34-10-0133-01: *Canada Mortgage and Housing Corporation, average rents for areas with populations of 10,000 and over.*  
+[DOI: 10.25318/3410013301-fra](https://doi.org/10.25318/3410013301-fra)
+
+⚙ **Technologies used:**  
+R `shiny`, `leaflet`, `ggplot2`, `plotly`, `bslib`
+
+👨‍💻 **Developed by:** MASSAOUDOU NAMATA ABDUL AHID
+
+---
+
 ---
 
 # Africa Problems Survey App
