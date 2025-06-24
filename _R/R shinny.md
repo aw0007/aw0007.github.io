@@ -13,7 +13,14 @@ Welcome to my interactive data science projects built with R Shiny.
 
 # Canada Housing Analytics
 
-[![Canada Housing Analytics App](/images/Housing%20ca/Housing%20cahousingcadash1.png)](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" alt="Dashboard Screenshot 1" width="45%">
+  </a>
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" alt="Dashboard Screenshot 2" width="45%">
+  </a>
+</div>
 
 **Description:**  
 An interactive application offering dynamic visual insights on rental market trends across Canada, based on official Statistics Canada data.
@@ -25,7 +32,7 @@ The application allows users to explore rental price evolution over time and acr
 👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
 
 🎞 **Demo video:**  
-[![Demo Video](/images/Housing%20ca/Housing%20cahousingcadash2.png)](/images/Housing%20ca/demorshinnyappa%20.mp4)
+[Watch demo video](/images/Housing%20ca/demorshinnyappa%20.mp4)
 
 📊 **Data Source:**  
 Statistics Canada - Table 34-10-0133-01: *Canada Mortgage and Housing Corporation, average rents for areas with populations of 10,000 and over.*  
@@ -35,6 +42,7 @@ Statistics Canada - Table 34-10-0133-01: *Canada Mortgage and Housing Corporatio
 R `shiny`, `leaflet`, `ggplot2`, `plotly`, `bslib`
 
 👨‍💻 **Developed by:** MASSAOUDOU NAMATA ABDUL AHID
+
 
 ---
 
