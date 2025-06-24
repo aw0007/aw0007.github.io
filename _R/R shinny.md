@@ -5,9 +5,9 @@ permalink: /r-shiny-projects/
 author_profile: true
 ---
 
-# My Interactive Data Science Applications with R Shiny
+# My Interactive  Applications with R Shiny
 
-Welcome to my portfolio of interactive dashboards developed using R Shiny.
+Welcome to my interactive dashboards developed using R Shiny.
 
 ---
 
