@@ -30,9 +30,6 @@ The app allows exploration of rental price trends over time and regions, filtere
 **Completion date:** June 2025  
 **[Launch App ▶](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
 
-🎞 **Demo video:**  
-[Watch demo video](/images/Housing%20ca/demorshinnyappa%20.mp4)
-
 📊 **Data Source:**  
 Statistics Canada - Table 34-10-0133-01  
 [DOI: 10.25318/3410013301-fra](https://doi.org/10.25318/3410013301-fra)
