@@ -35,7 +35,7 @@ An interactive web application offering dynamic visual insights into Canada’s 
 
 🗓 **Completion date:** June 2025
 
-👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
+👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/Logement_ca/)**
 
 ➡ **[More Details ▶](/r-shiny-projects/canada-housing-analytics/)**
 
