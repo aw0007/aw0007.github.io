@@ -16,11 +16,19 @@ Below are some of my professional interactive dashboards developed with R Shiny,
 <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
 
   <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-    <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" alt="Dashboard Screenshot 1" style="width: 45%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" alt="Dashboard Screenshot 1" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
   </a>
 
   <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-    <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" alt="Dashboard Screenshot 2" style="width: 45%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" alt="Dashboard Screenshot 2" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+  </a>
+
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash3.png" alt="Dashboard Screenshot 3" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+  </a>
+
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash4.png" alt="Dashboard Screenshot 4" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
   </a>
 
 </div>
@@ -36,8 +44,6 @@ The app allows exploration of rental price trends over time and regions, filtere
 
 👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
 
-🎞 **Demo video:**  
-[Watch demo video](/images/Housing%20ca/demorshinnyappa%20.mp4)
 
 📊 **Data Source:**  
 Statistics Canada - Table 34-10-0133-01: *Canada Mortgage and Housing Corporation, average rents for areas with populations of 10,000 and over.*  
@@ -47,22 +53,6 @@ Statistics Canada - Table 34-10-0133-01: *Canada Mortgage and Housing Corporatio
 R `shiny`, `leaflet`, `ggplot2`, `plotly`, `bslib`
 
 👨‍💻 **Developed by:** MASSAOUDOU NAMATA ABDUL AHID
-
-
-**Description:**  
-An interactive web application offering dynamic visual insights into Canada's rental housing market, using official Statistics Canada data.
-
-The app allows exploration of rental price trends over time and regions, filtered by structure type and unit type. It includes interactive maps, line charts, and bar plots.
-
-**Completion date:** June 2025  
-**[Launch App ▶](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
-
-📊 **Data Source:**  
-Statistics Canada - Table 34-10-0133-01  
-[DOI: 10.25318/3410013301-fra](https://doi.org/10.25318/3410013301-fra)
-
-**Technologies used:**  
-R `shiny`, `leaflet`, `ggplot2`, `plotly`, `bslib`
 
 ---
 
