@@ -13,7 +13,7 @@ Welcome to my interactive data science projects built with R Shiny.
 
 # Canada Housing Analytics
 
-<div style="display: flex; justify-content: center; gap: 10px;">
+<div style="display: flex; justify-content: center; gap: 1px;">
   <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
     <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" alt="Dashboard Screenshot 1" width="45%">
   </a>
