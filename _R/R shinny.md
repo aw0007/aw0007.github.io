@@ -7,42 +7,37 @@ author_profile: true
 
 # My Interactive Data Science Applications with R Shiny
 
-Below are some of my professional interactive dashboards developed with R Shiny, Leaflet, ggplot2, and Plotly.
+Welcome to my portfolio of interactive dashboards developed using R Shiny.
 
 ---
-# Canada Housing Analytics
+
+## 📋 Table of Contents
+
+- [Canada Housing Analytics](#canada-housing-analytics)
+- [Africa Problems Survey App](#africa-problems-survey-app)
+- [Government Revenue Mobilization App](#government-revenue-mobilization-app)
+
+---
+
+## Canada Housing Analytics
 
 <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
 
-  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-    <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" alt="Dashboard Screenshot 1" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-  </a>
-
-  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-    <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" alt="Dashboard Screenshot 2" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-  </a>
-
-  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-    <img src="/images/Housing%20ca/Housing%20cahousingcadash3.png" alt="Dashboard Screenshot 3" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-  </a>
-
-  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-    <img src="/images/Housing%20ca/Housing%20cahousingcadash4.png" alt="Dashboard Screenshot 4" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-  </a>
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" style="width: 90%; border: 1px solid #ddd; border-radius: 5px;">
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" style="width: 90%; border: 1px solid #ddd; border-radius: 5px;">
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash3.png" style="width: 90%; border: 1px solid #ddd; border-radius: 5px;">
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash4.png" style="width: 90%; border: 1px solid #ddd; border-radius: 5px;">
 
 </div>
 
----
-
 **Description:**  
 An interactive web application offering dynamic visual insights into Canada’s rental housing market, using official Statistics Canada data.
-
-The app allows exploration of rental price trends over time and regions, filtered by structure type and unit type. It includes interactive maps, line charts, and bar plots.
 
 🗓 **Completion date:** June 2025
 
 👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
 
+➡ **[More Details ▶](/r-shiny-projects/canada-housing-analytics/)**
 
 ---
 
@@ -53,12 +48,10 @@ The app allows exploration of rental price trends over time and regions, filtere
 **Description:**  
 Interactive dashboard analyzing perceived major problems across African countries using Afrobarometer Round 9 data.
 
-**Completion date:** June 2025  
+🗓 **Completion date:** June 2025  
 **[Launch App ▶](https://abdoulwahid.shinyapps.io/africa-problems-survey/)**
 
-📊 **Data Source:** Afrobarometer Round 9  
-**Technologies used:**  
-R `shiny`, `ggplot2`, `plotly`, `bslib`
+➡ **[More Details ▶](/r-shiny-projects/africa-problems-survey/)**
 
 ---
 
@@ -69,9 +62,7 @@ R `shiny`, `ggplot2`, `plotly`, `bslib`
 **Description:**  
 An interactive visualization of government revenue mobilization using UNU-WIDER data.
 
-**Completion date:** April 2025  
+🗓 **Completion date:** April 2025  
 **[Launch App ▶](https://abdoulwahid.shinyapps.io/taxdata/)**
 
-📊 **Data Source:** UNU-WIDER  
-**Technologies used:**  
-R `shiny`, `ggplot2`, `plotly`, `bslib`
+➡ **[More Details ▶](/r-shiny-projects/government-revenue-mobilization/)**
