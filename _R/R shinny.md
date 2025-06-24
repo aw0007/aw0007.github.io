@@ -12,27 +12,23 @@ Below are some of my professional interactive dashboards developed with R Shiny,
 ---
 # Canada Housing Analytics
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 15px;">
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
 
-  <div style="display: flex; justify-content: center; gap: 15px;">
-    <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-      <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" alt="Dashboard Screenshot 1" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-    </a>
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" alt="Dashboard Screenshot 1" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+  </a>
 
-    <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-      <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" alt="Dashboard Screenshot 2" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-    </a>
-  </div>
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" alt="Dashboard Screenshot 2" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+  </a>
 
-  <div style="display: flex; justify-content: center; gap: 15px;">
-    <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-      <img src="/images/Housing%20ca/Housing%20cahousingcadash3.png" alt="Dashboard Screenshot 3" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-    </a>
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash3.png" alt="Dashboard Screenshot 3" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+  </a>
 
-    <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
-      <img src="/images/Housing%20ca/Housing%20cahousingcadash4.png" alt="Dashboard Screenshot 4" style="width: 22%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
-    </a>
-  </div>
+  <a href="https://abdoulwahid.shinyapps.io/canada-housing-analytics/">
+    <img src="/images/Housing%20ca/Housing%20cahousingcadash4.png" alt="Dashboard Screenshot 4" style="width: 90%; border: 1px solid #ddd; border-radius: 5px; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);">
+  </a>
 
 </div>
 
