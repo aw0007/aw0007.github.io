@@ -7,7 +7,7 @@ author_profile: true
 
 # Canada Housing Analytics (Detailed Description)
 
-👉 **[Launch the App ▶](https://abdoulwahid.shinyapps.io/canada-housing-analytics/)**
+👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/Logement_ca/)**
 
 ## 📝 Project Overview
 
