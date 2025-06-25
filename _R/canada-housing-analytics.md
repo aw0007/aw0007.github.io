@@ -5,7 +5,15 @@ permalink: /r-shiny-projects/canada-housing-analytics/
 author_profile: true
 ---
 
-# Canada Housing Analytics (Detailed Description)
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
+
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" style="width: 90%; border: 1px solid #ddd;">
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" style="width: 90%; border: 1px solid #ddd;">
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash3.png" style="width: 90%; border: 1px solid #ddd;">
+  <img src="/images/Housing%20ca/Housing%20cahousingcadash4.png" style="width: 90%; border: 1px solid #ddd;">
+
+</div> 
+
 
 👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/Logement_ca/)**
 
@@ -31,16 +39,9 @@ Statistics Canada - Table 34-10-0133-01:
 
 R `shiny`, `leaflet`, `ggplot2`, `plotly`, `bslib`
 
-## 📸 Screenshots
+👉 **[Launch the App here](https://abdoulwahid.shinyapps.io/Logement_ca/)**
 
-<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; justify-items: center;">
 
-  <img src="/images/Housing%20ca/Housing%20cahousingcadash1.png" style="width: 90%; border: 1px solid #ddd;">
-  <img src="/images/Housing%20ca/Housing%20cahousingcadash2.png" style="width: 90%; border: 1px solid #ddd;">
-  <img src="/images/Housing%20ca/Housing%20cahousingcadash3.png" style="width: 90%; border: 1px solid #ddd;">
-  <img src="/images/Housing%20ca/Housing%20cahousingcadash4.png" style="width: 90%; border: 1px solid #ddd;">
-
-</div>
 
 ---
 
