@@ -10,6 +10,8 @@ authors:
 
 But explaining these dynamics is tricky—even for practitioners. As any trader will tell you: sometimes, explaining **risk management** to a newcomer is harder than placing the trades themselves! 😅
 
+👉 **[Launch the Interactive App ▶](https://abdoulwahid.shinyapps.io/nvda-ita/)**
+
 ---
 
 ### 📉 The Reality Behind Price Action
