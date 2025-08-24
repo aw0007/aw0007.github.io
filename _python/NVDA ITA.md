@@ -1,4 +1,3 @@
-
 ---
 title: "NVDA 2024 — Interactive Technical Analysis"
 excerpt: "SMA20, Bandes de Bollinger, RSI & MACD (thème dark).<br/><img src='https://aw0007.github.io/images/technical%20anlysis/NVIDIA.png'>"
