@@ -10,13 +10,6 @@ author_profile: true
 Welcome to my interactive dashboards developed using R Shiny.
 
 ---
-
-## 📋 Table of Contents
-
-- [Canada Housing Analytics](#canada-housing-analytics)
-- [Africa Problems Survey App](#africa-problems-survey-app)
-- [Government Revenue Mobilization App](#government-revenue-mobilization-app)
-
 ---
 
 ## Canada Housing Analytics
