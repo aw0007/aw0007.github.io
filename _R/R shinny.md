@@ -5,11 +5,6 @@ permalink: /r-shiny-projects/
 author_profile: true
 ---
 
-# My Interactive  Applications with R Shiny
-
-Welcome to my interactive dashboards developed using R Shiny.
-
----
 ---
 
 ## Canada Housing Analytics
