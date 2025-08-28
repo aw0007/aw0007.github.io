@@ -35,9 +35,9 @@ Development Economics | 2022-2024
 
 *Source: CERDI Clermont-Auvergne, Pôle tertiaire (official website)*
 
-### PhD – Université du Québec à Montréal (Canada)
+### Msc in economics – Université du Québec à Montréal (Canada)
 
-Advanced studies in International Taxation | 2024-present  
+ | 2024-present  
 <br/><img src="/images/personal/UQAM-Judith-Jasmin.jpg" style="width:80%;">
 
 *Source: Wikimedia Commons / Wikipedia UQAM Pavillon Judith-Jasmin*
