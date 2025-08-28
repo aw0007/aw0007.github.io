@@ -28,7 +28,7 @@ Economics & Management | 2018-2021
 
 *Source: FSJES Casablanca, Hassan II University (official website)*
 
-### Master's – University Clermont-Auvergne (CERDI, France)
+### Master's in development economics – University Clermont-Auvergne (CERDI, France)
 
 Development Economics | 2022-2024  
 <br/><img src="/images/personal/pole-tertiaire-2.jpg" style="width:80%;">
