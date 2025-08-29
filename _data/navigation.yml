@@ -10,7 +10,12 @@ main:
 
   # - title: "Talks"
   #   url: /talks/    
+  - title: "Python projects"
+    url: /python/
 
+  - title: "R projects"
+    url: /R/
+    
   - title: "Portfolio"
     url: /portfolio/
 
@@ -19,24 +24,22 @@ main:
 
   # - title: "Blog Posts"
   #   url: /year-archive/
+
+  - title: "personal"
+    url: /personal/
     
   - title: "CV"
     url: /cv/
     
-  - title: "personal"
-    url: /personal/
+
     
   # - title: "Guide"
   #   url: /markdown/
-  - title: "Python projects"
-    url: /python/
+
     
   - title: "Working Paper"
     url: /wp/
-    
-  - title: "R projects"
-    url: /R/
-    
+  
   - title: "Stata projects"
     url: /stata/
     
