@@ -1,7 +1,7 @@
 ---
 title: "Business Cycle Decomposition of Canadian GDP Using HP Filter"
 excerpt: "Visual analysis of Canada’s GDP using the Hodrick–Prescott filter to separate long-term trend from short-term cycles.<br/><img src='https://aw0007.github.io/images/MACRO%20DATA%20CANADA/pib_hpfilter_cycle_tendance.png'>"
-collection: portfolio
+collection: macroeconomics
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
