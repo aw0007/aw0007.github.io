@@ -1,7 +1,7 @@
 ---
 title: "Nobel Prize in Economics – A Data Exploration"
 excerpt: "Using Python to analyze Nobel laureates in Economics: age, gender, institutions, and the evolution of research themes.<br/><img src='/images/nobel prize/age_over_time.png'>"
-collection: portfolio
+collection: macroeconomics
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
