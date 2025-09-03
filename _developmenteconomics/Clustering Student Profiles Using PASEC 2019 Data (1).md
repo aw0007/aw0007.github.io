@@ -1,7 +1,7 @@
 ---
 title: "Clustering Student Profiles Using PASEC 2019 Data"
 excerpt: "Dimensionality reduction and unsupervised clustering (DBSCAN + PCA) applied to education data from 14 African countries, revealing student profiles across performance, SES, and school context.<br/><img src='https://aw0007.github.io/images/passec/pca_grid_part_1.png'>"
-collection: portfolio
+collection: developmenteconomics
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
