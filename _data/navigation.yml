@@ -10,11 +10,19 @@ main:
 
   # - title: "Talks"
   #   url: /talks/    
-  - title: "Python projects"
-    url: /python/
+  #- title: "Python projects"
+  #  url: /python/
 
-  - title: "R projects"
-    url: /R/
+  #- title: "R projects"
+  #  url: /R/
+  - title: "Finance"
+    url: /finance/
+
+  - title: "Macroeconomics"
+    url: /macroeconomics/
+    
+  - title: "Development Economics"
+    url: /developmenteconomics/
     
   - title: "Portfolio"
     url: /portfolio/
@@ -40,7 +48,7 @@ main:
   - title: "Working Paper"
     url: /wp/
   
-  - title: "Stata projects"
-    url: /stata/
+ # - title: "Stata projects"
+  #  url: /stata/
     
 
