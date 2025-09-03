@@ -1,3 +1,4 @@
+---
 title: "MACD + SMA Backtesting (2015–2024)"
 excerpt: "Systematic backtesting of a MACD crossover strategy with SMA overlays across multiple assets (TSLA, NVDA, AAPL, MSFT, AMZN).<br/><img src='https://aw0007.github.io/images/BACKTESTING/BACKTESTING.png'>"
 collection: portfolio
