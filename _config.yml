@@ -243,9 +243,55 @@ collections:
   personal:
     output: true
     permalink: /:collection/:path/
-
+  finance:
+    output: true
+    permalink: /:collection/:path/
+  macroeconomics:
+    output: true
+    permalink: /:collection/:path/
+  developmenteconomics:
+    output: true
+    permalink: /:collection/:path/
+    
 # These settings control how pages and collections are included in the site
 defaults:
+
+  # _finance
+  - scope:
+      path: ""
+      type: finance
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+  # _macroeconomics
+  - scope:
+      path: ""
+      type: macroeconomics
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      
+  # _developmenteconomics
+  - scope:
+      path: ""
+      type: developmenteconomics
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      
   # _posts
   - scope:
       path: ""
