@@ -1,7 +1,7 @@
 ---
 title: "NVDA 2024 — Interactive Technical Analysis"
 excerpt: "Candlesticks, SMA20, Bollinger(20,2), RSI(14) & MACD(12,26,9) on NVIDIA’s 2024 price action.<br/><img src='https://aw0007.github.io/images/technical%20anlysis/NVIDIA.png'>"
-collection: portfolio
+collection: finance
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
