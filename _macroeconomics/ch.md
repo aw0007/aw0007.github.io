@@ -1,7 +1,7 @@
 ---
 title: "Canada Housing Analytics — Interactive Dashboard"
 excerpt: "Exploring Canada’s rental market with Statistics Canada data (filters by province, time, and indicators).<br/><img src='/images/Housing%20ca/Housing%20cahousingcadash1.png'>"
-collection: portfolio
+collection: macroeconomics
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
