@@ -1,7 +1,7 @@
 ---
 title: "AAPL 2022 — Interactive Technical Analysis (Light Theme)"
 excerpt: "EMA20/EMA50, Bollinger(20,2), RSI(14) & Volume (thème clair).<br/><img src='https://aw0007.github.io/images/technical%20anlysis/appl%202024.png'>"
-collection: portfolio
+collection: finance
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
