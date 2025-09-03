@@ -1,7 +1,7 @@
 ---
 title: "Africa Problems Survey — Afrobarometer Round 9"
 excerpt: "Interactive dashboard of perceived major problems across African countries (Afrobarometer R9).<br/><img src='/images/afro%20barometer/africa_problems.png'>"
-collection: portfolio
+collection: developmenteconomics
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
