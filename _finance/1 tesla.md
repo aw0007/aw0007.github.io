@@ -1,7 +1,7 @@
 ---
 title: "TSLA 2024 — Heikin-Ashi + Ichimoku + VWAP"
 excerpt: "Heikin-Ashi candles, Ichimoku Cloud, anchored VWAP, Stochastique & OBV (style ggplot2).<br/><img src='https://aw0007.github.io/images/technical%20anlysis/TSLA%202024.png'>"
-collection: portfolio
+collection: finance
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
