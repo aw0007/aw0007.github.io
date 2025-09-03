@@ -1,7 +1,7 @@
 ---
 title: "Government Revenue Mobilization — UNU-WIDER"
 excerpt: "Interactive visualization of government revenue composition and trends using UNU-WIDER data.<br/><img src='/images/Governement%20revenue%20source/R%20shinny%20web%20app%20screen%20shot.png'>"
-collection: portfolio
+collection: developmenteconomics
 authors:
   - Abdoul Wahid Massaoudou Namata
 ---
